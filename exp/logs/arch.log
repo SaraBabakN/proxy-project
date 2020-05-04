@@ -1,0 +1,2826 @@
+------------------------------Current Architecture [1]------------------------------
+0. (Mix(3x3_DepthConv, 0.125), 1x1_Conv)
+1. (Mix(5x5_DepthConv, 0.143), Identity)
+2. (Mix(3x3_Conv, 0.167), 1x1_Conv)
+3. (Mix(7x7_DepthConv, 0.143), Identity)
+4. (Mix(5x5_Conv, 0.167), 1x1_Conv)
+5. (Mix(3x3_DepthConv, 0.143), Identity)
+6. (Mix(3x3_DepthConv, 0.167), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [2]------------------------------
+0. (Mix(5x5_Conv, 0.135), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.148), Identity)
+2. (Mix(7x7_Conv, 0.179), 1x1_Conv)
+3. (Mix(Zero, 0.150), Identity)
+4. (Mix(5x5_Conv, 0.175), 1x1_Conv)
+5. (Mix(Zero, 0.150), Identity)
+6. (Mix(5x5_Conv, 0.172), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [3]------------------------------
+0. (Mix(5x5_Conv, 0.142), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.157), Identity)
+2. (Mix(7x7_Conv, 0.193), 1x1_Conv)
+3. (Mix(7x7_Conv, 0.161), Identity)
+4. (Mix(5x5_Conv, 0.180), 1x1_Conv)
+5. (Mix(Zero, 0.158), Identity)
+6. (Mix(7x7_Conv, 0.179), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [4]------------------------------
+0. (Mix(5x5_Conv, 0.147), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.163), Identity)
+2. (Mix(7x7_Conv, 0.207), 1x1_Conv)
+3. (Mix(7x7_Conv, 0.163), Identity)
+4. (Mix(7x7_Conv, 0.192), 1x1_Conv)
+5. (Mix(Zero, 0.163), Identity)
+6. (Mix(5x5_Conv, 0.181), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [1]------------------------------
+0. (Mix(3x3_DepthConv, 0.125), 1x1_Conv)
+1. (Mix(5x5_DepthConv, 0.143), Identity)
+2. (Mix(3x3_Conv, 0.167), 1x1_Conv)
+3. (Mix(7x7_DepthConv, 0.143), Identity)
+4. (Mix(5x5_Conv, 0.167), 1x1_Conv)
+5. (Mix(3x3_DepthConv, 0.143), Identity)
+6. (Mix(3x3_DepthConv, 0.167), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [1]------------------------------
+0. (Mix(3x3_DepthConv, 0.125), 1x1_Conv)
+1. (Mix(5x5_DepthConv, 0.143), Identity)
+2. (Mix(3x3_Conv, 0.167), 1x1_Conv)
+3. (Mix(7x7_DepthConv, 0.143), Identity)
+4. (Mix(5x5_Conv, 0.167), 1x1_Conv)
+5. (Mix(3x3_DepthConv, 0.143), Identity)
+6. (Mix(3x3_DepthConv, 0.167), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [2]------------------------------
+0. (Mix(5x5_Conv, 0.133), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.149), Identity)
+2. (Mix(7x7_Conv, 0.182), 1x1_Conv)
+3. (Mix(Zero, 0.149), Identity)
+4. (Mix(3x3_Conv, 0.177), 1x1_Conv)
+5. (Mix(Zero, 0.149), Identity)
+6. (Mix(5x5_Conv, 0.173), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [3]------------------------------
+0. (Mix(7x7_Conv, 0.143), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.157), Identity)
+2. (Mix(7x7_Conv, 0.196), 1x1_Conv)
+3. (Mix(Zero, 0.157), Identity)
+4. (Mix(7x7_Conv, 0.185), 1x1_Conv)
+5. (Mix(Zero, 0.156), Identity)
+6. (Mix(7x7_Conv, 0.180), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [4]------------------------------
+0. (Mix(7x7_Conv, 0.150), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.161), Identity)
+2. (Mix(7x7_Conv, 0.209), 1x1_Conv)
+3. (Mix(Zero, 0.163), Identity)
+4. (Mix(7x7_Conv, 0.196), 1x1_Conv)
+5. (Mix(Zero, 0.162), Identity)
+6. (Mix(5x5_Conv, 0.179), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [5]------------------------------
+0. (Mix(7x7_Conv, 0.157), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.168), Identity)
+2. (Mix(7x7_Conv, 0.222), 1x1_Conv)
+3. (Mix(Zero, 0.167), Identity)
+4. (Mix(7x7_Conv, 0.203), 1x1_Conv)
+5. (Mix(Zero, 0.166), Identity)
+6. (Mix(5x5_Conv, 0.189), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [6]------------------------------
+0. (Mix(7x7_Conv, 0.165), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.175), Identity)
+2. (Mix(7x7_Conv, 0.238), 1x1_Conv)
+3. (Mix(Zero, 0.171), Identity)
+4. (Mix(7x7_Conv, 0.213), 1x1_Conv)
+5. (Mix(Zero, 0.172), Identity)
+6. (Mix(5x5_Conv, 0.188), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [7]------------------------------
+0. (Mix(7x7_Conv, 0.173), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.176), Identity)
+2. (Mix(7x7_Conv, 0.254), 1x1_Conv)
+3. (Mix(Zero, 0.176), Identity)
+4. (Mix(7x7_Conv, 0.221), 1x1_Conv)
+5. (Mix(Zero, 0.178), Identity)
+6. (Mix(5x5_Conv, 0.189), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [8]------------------------------
+0. (Mix(7x7_Conv, 0.174), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.185), Identity)
+2. (Mix(7x7_Conv, 0.275), 1x1_Conv)
+3. (Mix(Zero, 0.183), Identity)
+4. (Mix(7x7_Conv, 0.230), 1x1_Conv)
+5. (Mix(Zero, 0.184), Identity)
+6. (Mix(5x5_Conv, 0.182), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [9]------------------------------
+0. (Mix(7x7_Conv, 0.178), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.192), Identity)
+2. (Mix(7x7_Conv, 0.289), 1x1_Conv)
+3. (Mix(Zero, 0.193), Identity)
+4. (Mix(7x7_Conv, 0.236), 1x1_Conv)
+5. (Mix(Zero, 0.187), Identity)
+6. (Mix(5x5_Conv, 0.180), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [10]------------------------------
+0. (Mix(7x7_Conv, 0.183), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.193), Identity)
+2. (Mix(7x7_Conv, 0.308), 1x1_Conv)
+3. (Mix(Zero, 0.201), Identity)
+4. (Mix(7x7_Conv, 0.249), 1x1_Conv)
+5. (Mix(Zero, 0.192), Identity)
+6. (Mix(7x7_Conv, 0.185), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [11]------------------------------
+0. (Mix(7x7_Conv, 0.186), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.198), Identity)
+2. (Mix(7x7_Conv, 0.322), 1x1_Conv)
+3. (Mix(Zero, 0.206), Identity)
+4. (Mix(7x7_Conv, 0.252), 1x1_Conv)
+5. (Mix(Zero, 0.196), Identity)
+6. (Mix(7x7_Conv, 0.189), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [12]------------------------------
+0. (Mix(5x5_Conv, 0.189), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.198), Identity)
+2. (Mix(7x7_Conv, 0.332), 1x1_Conv)
+3. (Mix(Zero, 0.211), Identity)
+4. (Mix(7x7_Conv, 0.254), 1x1_Conv)
+5. (Mix(Zero, 0.203), Identity)
+6. (Mix(7x7_Conv, 0.196), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [13]------------------------------
+0. (Mix(7x7_Conv, 0.200), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.200), Identity)
+2. (Mix(7x7_Conv, 0.344), 1x1_Conv)
+3. (Mix(Zero, 0.216), Identity)
+4. (Mix(7x7_Conv, 0.260), 1x1_Conv)
+5. (Mix(Zero, 0.208), Identity)
+6. (Mix(7x7_Conv, 0.197), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [14]------------------------------
+0. (Mix(5x5_Conv, 0.207), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.204), Identity)
+2. (Mix(7x7_Conv, 0.349), 1x1_Conv)
+3. (Mix(Zero, 0.219), Identity)
+4. (Mix(7x7_Conv, 0.261), 1x1_Conv)
+5. (Mix(Zero, 0.211), Identity)
+6. (Mix(7x7_Conv, 0.194), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [15]------------------------------
+0. (Mix(5x5_Conv, 0.212), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.209), Identity)
+2. (Mix(7x7_Conv, 0.354), 1x1_Conv)
+3. (Mix(Zero, 0.230), Identity)
+4. (Mix(7x7_Conv, 0.262), 1x1_Conv)
+5. (Mix(Zero, 0.215), Identity)
+6. (Mix(7x7_Conv, 0.200), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [16]------------------------------
+0. (Mix(7x7_Conv, 0.216), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.209), Identity)
+2. (Mix(7x7_Conv, 0.365), 1x1_Conv)
+3. (Mix(Zero, 0.237), Identity)
+4. (Mix(7x7_Conv, 0.263), 1x1_Conv)
+5. (Mix(Zero, 0.220), Identity)
+6. (Mix(7x7_Conv, 0.206), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [17]------------------------------
+0. (Mix(7x7_Conv, 0.220), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.209), Identity)
+2. (Mix(7x7_Conv, 0.366), 1x1_Conv)
+3. (Mix(Zero, 0.244), Identity)
+4. (Mix(7x7_Conv, 0.269), 1x1_Conv)
+5. (Mix(Zero, 0.226), Identity)
+6. (Mix(7x7_Conv, 0.206), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [18]------------------------------
+0. (Mix(7x7_Conv, 0.229), 1x1_Conv)
+1. (Mix(Zero, 0.205), Identity)
+2. (Mix(7x7_Conv, 0.368), 1x1_Conv)
+3. (Mix(Zero, 0.251), Identity)
+4. (Mix(7x7_Conv, 0.271), 1x1_Conv)
+5. (Mix(Zero, 0.227), Identity)
+6. (Mix(7x7_Conv, 0.201), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [19]------------------------------
+0. (Mix(7x7_Conv, 0.236), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.209), Identity)
+2. (Mix(7x7_Conv, 0.382), 1x1_Conv)
+3. (Mix(Zero, 0.255), Identity)
+4. (Mix(7x7_Conv, 0.275), 1x1_Conv)
+5. (Mix(Zero, 0.232), Identity)
+6. (Mix(7x7_Conv, 0.200), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [20]------------------------------
+0. (Mix(7x7_Conv, 0.240), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.212), Identity)
+2. (Mix(7x7_Conv, 0.395), 1x1_Conv)
+3. (Mix(Zero, 0.262), Identity)
+4. (Mix(7x7_Conv, 0.276), 1x1_Conv)
+5. (Mix(Zero, 0.235), Identity)
+6. (Mix(5x5_Conv, 0.205), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [21]------------------------------
+0. (Mix(7x7_Conv, 0.238), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.213), Identity)
+2. (Mix(7x7_Conv, 0.404), 1x1_Conv)
+3. (Mix(Zero, 0.263), Identity)
+4. (Mix(7x7_Conv, 0.276), 1x1_Conv)
+5. (Mix(Zero, 0.241), Identity)
+6. (Mix(5x5_Conv, 0.208), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [22]------------------------------
+0. (Mix(7x7_Conv, 0.246), 1x1_Conv)
+1. (Mix(Zero, 0.208), Identity)
+2. (Mix(7x7_Conv, 0.405), 1x1_Conv)
+3. (Mix(Zero, 0.266), Identity)
+4. (Mix(7x7_Conv, 0.276), 1x1_Conv)
+5. (Mix(Zero, 0.245), Identity)
+6. (Mix(5x5_Conv, 0.208), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [23]------------------------------
+0. (Mix(7x7_Conv, 0.249), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.212), Identity)
+2. (Mix(7x7_Conv, 0.415), 1x1_Conv)
+3. (Mix(Zero, 0.269), Identity)
+4. (Mix(7x7_Conv, 0.279), 1x1_Conv)
+5. (Mix(Zero, 0.246), Identity)
+6. (Mix(5x5_Conv, 0.205), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [24]------------------------------
+0. (Mix(7x7_Conv, 0.254), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.210), Identity)
+2. (Mix(7x7_Conv, 0.422), 1x1_Conv)
+3. (Mix(Zero, 0.274), Identity)
+4. (Mix(5x5_Conv, 0.281), 1x1_Conv)
+5. (Mix(Zero, 0.247), Identity)
+6. (Mix(5x5_Conv, 0.204), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [25]------------------------------
+0. (Mix(7x7_Conv, 0.259), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.213), Identity)
+2. (Mix(7x7_Conv, 0.427), 1x1_Conv)
+3. (Mix(Zero, 0.276), Identity)
+4. (Mix(7x7_Conv, 0.291), 1x1_Conv)
+5. (Mix(Zero, 0.249), Identity)
+6. (Mix(7x7_Conv, 0.203), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [26]------------------------------
+0. (Mix(7x7_Conv, 0.261), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.217), Identity)
+2. (Mix(7x7_Conv, 0.430), 1x1_Conv)
+3. (Mix(Zero, 0.277), Identity)
+4. (Mix(7x7_Conv, 0.291), 1x1_Conv)
+5. (Mix(Zero, 0.251), Identity)
+6. (Mix(7x7_Conv, 0.208), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [27]------------------------------
+0. (Mix(7x7_Conv, 0.270), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.218), Identity)
+2. (Mix(7x7_Conv, 0.437), 1x1_Conv)
+3. (Mix(Zero, 0.278), Identity)
+4. (Mix(7x7_Conv, 0.286), 1x1_Conv)
+5. (Mix(Zero, 0.253), Identity)
+6. (Mix(7x7_Conv, 0.210), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [28]------------------------------
+0. (Mix(7x7_Conv, 0.270), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.220), Identity)
+2. (Mix(7x7_Conv, 0.447), 1x1_Conv)
+3. (Mix(Zero, 0.287), Identity)
+4. (Mix(7x7_Conv, 0.295), 1x1_Conv)
+5. (Mix(Zero, 0.257), Identity)
+6. (Mix(5x5_Conv, 0.212), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [29]------------------------------
+0. (Mix(7x7_Conv, 0.271), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.223), Identity)
+2. (Mix(7x7_Conv, 0.443), 1x1_Conv)
+3. (Mix(Zero, 0.292), Identity)
+4. (Mix(7x7_Conv, 0.302), 1x1_Conv)
+5. (Mix(Zero, 0.260), Identity)
+6. (Mix(7x7_Conv, 0.209), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [30]------------------------------
+0. (Mix(7x7_Conv, 0.278), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.229), Identity)
+2. (Mix(7x7_Conv, 0.453), 1x1_Conv)
+3. (Mix(Zero, 0.294), Identity)
+4. (Mix(7x7_Conv, 0.305), 1x1_Conv)
+5. (Mix(Zero, 0.261), Identity)
+6. (Mix(5x5_Conv, 0.213), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [31]------------------------------
+0. (Mix(7x7_Conv, 0.277), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.235), Identity)
+2. (Mix(7x7_Conv, 0.465), 1x1_Conv)
+3. (Mix(Zero, 0.300), Identity)
+4. (Mix(7x7_Conv, 0.304), 1x1_Conv)
+5. (Mix(Zero, 0.268), Identity)
+6. (Mix(7x7_Conv, 0.212), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [32]------------------------------
+0. (Mix(7x7_Conv, 0.280), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.245), Identity)
+2. (Mix(7x7_Conv, 0.465), 1x1_Conv)
+3. (Mix(Zero, 0.305), Identity)
+4. (Mix(7x7_Conv, 0.301), 1x1_Conv)
+5. (Mix(Zero, 0.272), Identity)
+6. (Mix(7x7_Conv, 0.221), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [33]------------------------------
+0. (Mix(7x7_Conv, 0.291), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.248), Identity)
+2. (Mix(7x7_Conv, 0.473), 1x1_Conv)
+3. (Mix(Zero, 0.308), Identity)
+4. (Mix(7x7_Conv, 0.294), 1x1_Conv)
+5. (Mix(Zero, 0.275), Identity)
+6. (Mix(7x7_Conv, 0.217), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [34]------------------------------
+0. (Mix(7x7_Conv, 0.295), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.254), Identity)
+2. (Mix(7x7_Conv, 0.477), 1x1_Conv)
+3. (Mix(Zero, 0.316), Identity)
+4. (Mix(7x7_Conv, 0.300), 1x1_Conv)
+5. (Mix(Zero, 0.280), Identity)
+6. (Mix(7x7_Conv, 0.214), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [35]------------------------------
+0. (Mix(7x7_Conv, 0.299), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.259), Identity)
+2. (Mix(7x7_Conv, 0.482), 1x1_Conv)
+3. (Mix(Zero, 0.319), Identity)
+4. (Mix(7x7_Conv, 0.303), 1x1_Conv)
+5. (Mix(Zero, 0.287), Identity)
+6. (Mix(5x5_Conv, 0.209), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [36]------------------------------
+0. (Mix(7x7_Conv, 0.298), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.265), Identity)
+2. (Mix(7x7_Conv, 0.484), 1x1_Conv)
+3. (Mix(Zero, 0.322), Identity)
+4. (Mix(7x7_Conv, 0.302), 1x1_Conv)
+5. (Mix(Zero, 0.290), Identity)
+6. (Mix(5x5_Conv, 0.218), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [37]------------------------------
+0. (Mix(7x7_Conv, 0.295), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.265), Identity)
+2. (Mix(7x7_Conv, 0.485), 1x1_Conv)
+3. (Mix(Zero, 0.326), Identity)
+4. (Mix(7x7_Conv, 0.300), 1x1_Conv)
+5. (Mix(Zero, 0.292), Identity)
+6. (Mix(5x5_Conv, 0.216), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [38]------------------------------
+0. (Mix(7x7_Conv, 0.304), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.274), Identity)
+2. (Mix(7x7_Conv, 0.492), 1x1_Conv)
+3. (Mix(Zero, 0.327), Identity)
+4. (Mix(7x7_Conv, 0.302), 1x1_Conv)
+5. (Mix(Zero, 0.296), Identity)
+6. (Mix(5x5_Conv, 0.223), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [39]------------------------------
+0. (Mix(7x7_Conv, 0.295), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.282), Identity)
+2. (Mix(7x7_Conv, 0.495), 1x1_Conv)
+3. (Mix(Zero, 0.331), Identity)
+4. (Mix(7x7_Conv, 0.313), 1x1_Conv)
+5. (Mix(Zero, 0.298), Identity)
+6. (Mix(5x5_Conv, 0.222), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [40]------------------------------
+0. (Mix(7x7_Conv, 0.302), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.290), Identity)
+2. (Mix(7x7_Conv, 0.495), 1x1_Conv)
+3. (Mix(Zero, 0.340), Identity)
+4. (Mix(7x7_Conv, 0.318), 1x1_Conv)
+5. (Mix(Zero, 0.303), Identity)
+6. (Mix(5x5_Conv, 0.216), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [41]------------------------------
+0. (Mix(7x7_Conv, 0.307), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.304), Identity)
+2. (Mix(7x7_Conv, 0.494), 1x1_Conv)
+3. (Mix(Zero, 0.343), Identity)
+4. (Mix(7x7_Conv, 0.319), 1x1_Conv)
+5. (Mix(Zero, 0.307), Identity)
+6. (Mix(5x5_Conv, 0.216), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [42]------------------------------
+0. (Mix(7x7_Conv, 0.312), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.311), Identity)
+2. (Mix(7x7_Conv, 0.493), 1x1_Conv)
+3. (Mix(Zero, 0.347), Identity)
+4. (Mix(7x7_Conv, 0.316), 1x1_Conv)
+5. (Mix(Zero, 0.314), Identity)
+6. (Mix(5x5_Conv, 0.215), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [43]------------------------------
+0. (Mix(7x7_Conv, 0.314), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.324), Identity)
+2. (Mix(7x7_Conv, 0.495), 1x1_Conv)
+3. (Mix(Zero, 0.353), Identity)
+4. (Mix(5x5_Conv, 0.317), 1x1_Conv)
+5. (Mix(Zero, 0.318), Identity)
+6. (Mix(5x5_Conv, 0.211), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [44]------------------------------
+0. (Mix(7x7_Conv, 0.317), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.326), Identity)
+2. (Mix(7x7_Conv, 0.501), 1x1_Conv)
+3. (Mix(Zero, 0.355), Identity)
+4. (Mix(5x5_Conv, 0.321), 1x1_Conv)
+5. (Mix(Zero, 0.323), Identity)
+6. (Mix(5x5_Conv, 0.212), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [45]------------------------------
+0. (Mix(7x7_Conv, 0.319), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.332), Identity)
+2. (Mix(7x7_Conv, 0.502), 1x1_Conv)
+3. (Mix(Zero, 0.357), Identity)
+4. (Mix(5x5_Conv, 0.328), 1x1_Conv)
+5. (Mix(Zero, 0.327), Identity)
+6. (Mix(7x7_Conv, 0.216), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [46]------------------------------
+0. (Mix(7x7_Conv, 0.311), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.342), Identity)
+2. (Mix(7x7_Conv, 0.500), 1x1_Conv)
+3. (Mix(Zero, 0.361), Identity)
+4. (Mix(7x7_Conv, 0.325), 1x1_Conv)
+5. (Mix(Zero, 0.332), Identity)
+6. (Mix(7x7_Conv, 0.223), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [47]------------------------------
+0. (Mix(7x7_Conv, 0.311), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.351), Identity)
+2. (Mix(7x7_Conv, 0.503), 1x1_Conv)
+3. (Mix(Zero, 0.364), Identity)
+4. (Mix(7x7_Conv, 0.334), 1x1_Conv)
+5. (Mix(Zero, 0.335), Identity)
+6. (Mix(7x7_Conv, 0.228), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [48]------------------------------
+0. (Mix(7x7_Conv, 0.310), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.356), Identity)
+2. (Mix(7x7_Conv, 0.505), 1x1_Conv)
+3. (Mix(Zero, 0.367), Identity)
+4. (Mix(7x7_Conv, 0.347), 1x1_Conv)
+5. (Mix(Zero, 0.340), Identity)
+6. (Mix(7x7_Conv, 0.229), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [49]------------------------------
+0. (Mix(7x7_Conv, 0.316), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.352), Identity)
+2. (Mix(7x7_Conv, 0.514), 1x1_Conv)
+3. (Mix(Zero, 0.370), Identity)
+4. (Mix(7x7_Conv, 0.343), 1x1_Conv)
+5. (Mix(Zero, 0.346), Identity)
+6. (Mix(7x7_Conv, 0.231), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [50]------------------------------
+0. (Mix(7x7_Conv, 0.328), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.354), Identity)
+2. (Mix(7x7_Conv, 0.518), 1x1_Conv)
+3. (Mix(Zero, 0.372), Identity)
+4. (Mix(7x7_Conv, 0.349), 1x1_Conv)
+5. (Mix(Zero, 0.351), Identity)
+6. (Mix(7x7_Conv, 0.232), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [51]------------------------------
+0. (Mix(7x7_Conv, 0.323), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.366), Identity)
+2. (Mix(7x7_Conv, 0.521), 1x1_Conv)
+3. (Mix(Zero, 0.377), Identity)
+4. (Mix(7x7_Conv, 0.348), 1x1_Conv)
+5. (Mix(Zero, 0.354), Identity)
+6. (Mix(7x7_Conv, 0.231), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [52]------------------------------
+0. (Mix(7x7_Conv, 0.335), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.374), Identity)
+2. (Mix(7x7_Conv, 0.531), 1x1_Conv)
+3. (Mix(Zero, 0.379), Identity)
+4. (Mix(7x7_Conv, 0.357), 1x1_Conv)
+5. (Mix(Zero, 0.359), Identity)
+6. (Mix(7x7_Conv, 0.235), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [53]------------------------------
+0. (Mix(7x7_Conv, 0.330), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.390), Identity)
+2. (Mix(7x7_Conv, 0.545), 1x1_Conv)
+3. (Mix(Zero, 0.381), Identity)
+4. (Mix(7x7_Conv, 0.369), 1x1_Conv)
+5. (Mix(Zero, 0.365), Identity)
+6. (Mix(7x7_Conv, 0.237), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [54]------------------------------
+0. (Mix(7x7_Conv, 0.330), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.393), Identity)
+2. (Mix(7x7_Conv, 0.544), 1x1_Conv)
+3. (Mix(Zero, 0.386), Identity)
+4. (Mix(7x7_Conv, 0.372), 1x1_Conv)
+5. (Mix(Zero, 0.370), Identity)
+6. (Mix(7x7_Conv, 0.238), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [55]------------------------------
+0. (Mix(7x7_Conv, 0.331), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.390), Identity)
+2. (Mix(7x7_Conv, 0.540), 1x1_Conv)
+3. (Mix(Zero, 0.388), Identity)
+4. (Mix(7x7_Conv, 0.376), 1x1_Conv)
+5. (Mix(Zero, 0.374), Identity)
+6. (Mix(7x7_Conv, 0.240), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [56]------------------------------
+0. (Mix(7x7_Conv, 0.331), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.395), Identity)
+2. (Mix(7x7_Conv, 0.543), 1x1_Conv)
+3. (Mix(Zero, 0.389), Identity)
+4. (Mix(7x7_Conv, 0.383), 1x1_Conv)
+5. (Mix(Zero, 0.378), Identity)
+6. (Mix(7x7_Conv, 0.244), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [57]------------------------------
+0. (Mix(7x7_Conv, 0.331), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.407), Identity)
+2. (Mix(7x7_Conv, 0.555), 1x1_Conv)
+3. (Mix(Zero, 0.392), Identity)
+4. (Mix(7x7_Conv, 0.388), 1x1_Conv)
+5. (Mix(Zero, 0.381), Identity)
+6. (Mix(7x7_Conv, 0.239), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [58]------------------------------
+0. (Mix(7x7_Conv, 0.333), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.424), Identity)
+2. (Mix(7x7_Conv, 0.561), 1x1_Conv)
+3. (Mix(Zero, 0.399), Identity)
+4. (Mix(7x7_Conv, 0.399), 1x1_Conv)
+5. (Mix(Zero, 0.384), Identity)
+6. (Mix(7x7_Conv, 0.238), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [59]------------------------------
+0. (Mix(7x7_Conv, 0.324), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.432), Identity)
+2. (Mix(7x7_Conv, 0.565), 1x1_Conv)
+3. (Mix(Zero, 0.404), Identity)
+4. (Mix(7x7_Conv, 0.410), 1x1_Conv)
+5. (Mix(Zero, 0.387), Identity)
+6. (Mix(7x7_Conv, 0.240), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [60]------------------------------
+0. (Mix(7x7_Conv, 0.327), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.451), Identity)
+2. (Mix(7x7_Conv, 0.558), 1x1_Conv)
+3. (Mix(Zero, 0.410), Identity)
+4. (Mix(7x7_Conv, 0.415), 1x1_Conv)
+5. (Mix(Zero, 0.386), Identity)
+6. (Mix(7x7_Conv, 0.239), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [61]------------------------------
+0. (Mix(7x7_Conv, 0.336), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.459), Identity)
+2. (Mix(7x7_Conv, 0.563), 1x1_Conv)
+3. (Mix(Zero, 0.414), Identity)
+4. (Mix(7x7_Conv, 0.419), 1x1_Conv)
+5. (Mix(Zero, 0.388), Identity)
+6. (Mix(7x7_Conv, 0.244), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [62]------------------------------
+0. (Mix(7x7_Conv, 0.346), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.472), Identity)
+2. (Mix(7x7_Conv, 0.574), 1x1_Conv)
+3. (Mix(Zero, 0.417), Identity)
+4. (Mix(7x7_Conv, 0.416), 1x1_Conv)
+5. (Mix(Zero, 0.391), Identity)
+6. (Mix(7x7_Conv, 0.242), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [63]------------------------------
+0. (Mix(7x7_Conv, 0.350), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.477), Identity)
+2. (Mix(7x7_Conv, 0.579), 1x1_Conv)
+3. (Mix(Zero, 0.421), Identity)
+4. (Mix(7x7_Conv, 0.419), 1x1_Conv)
+5. (Mix(Zero, 0.394), Identity)
+6. (Mix(7x7_Conv, 0.241), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [64]------------------------------
+0. (Mix(7x7_Conv, 0.355), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.486), Identity)
+2. (Mix(7x7_Conv, 0.580), 1x1_Conv)
+3. (Mix(Zero, 0.423), Identity)
+4. (Mix(7x7_Conv, 0.424), 1x1_Conv)
+5. (Mix(Zero, 0.396), Identity)
+6. (Mix(7x7_Conv, 0.235), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [65]------------------------------
+0. (Mix(7x7_Conv, 0.354), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.490), Identity)
+2. (Mix(7x7_Conv, 0.582), 1x1_Conv)
+3. (Mix(Zero, 0.427), Identity)
+4. (Mix(7x7_Conv, 0.429), 1x1_Conv)
+5. (Mix(Zero, 0.399), Identity)
+6. (Mix(7x7_Conv, 0.233), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [66]------------------------------
+0. (Mix(7x7_Conv, 0.354), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.509), Identity)
+2. (Mix(7x7_Conv, 0.584), 1x1_Conv)
+3. (Mix(Zero, 0.429), Identity)
+4. (Mix(7x7_Conv, 0.427), 1x1_Conv)
+5. (Mix(Zero, 0.401), Identity)
+6. (Mix(7x7_Conv, 0.231), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [67]------------------------------
+0. (Mix(7x7_Conv, 0.363), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.520), Identity)
+2. (Mix(7x7_Conv, 0.593), 1x1_Conv)
+3. (Mix(Zero, 0.434), Identity)
+4. (Mix(7x7_Conv, 0.433), 1x1_Conv)
+5. (Mix(Zero, 0.407), Identity)
+6. (Mix(7x7_Conv, 0.235), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [68]------------------------------
+0. (Mix(7x7_Conv, 0.370), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.525), Identity)
+2. (Mix(7x7_Conv, 0.604), 1x1_Conv)
+3. (Mix(Zero, 0.437), Identity)
+4. (Mix(7x7_Conv, 0.449), 1x1_Conv)
+5. (Mix(Zero, 0.410), Identity)
+6. (Mix(7x7_Conv, 0.235), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [69]------------------------------
+0. (Mix(7x7_Conv, 0.385), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.521), Identity)
+2. (Mix(7x7_Conv, 0.606), 1x1_Conv)
+3. (Mix(Zero, 0.438), Identity)
+4. (Mix(7x7_Conv, 0.457), 1x1_Conv)
+5. (Mix(Zero, 0.413), Identity)
+6. (Mix(7x7_Conv, 0.245), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [70]------------------------------
+0. (Mix(7x7_Conv, 0.378), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.528), Identity)
+2. (Mix(7x7_Conv, 0.613), 1x1_Conv)
+3. (Mix(Zero, 0.442), Identity)
+4. (Mix(7x7_Conv, 0.461), 1x1_Conv)
+5. (Mix(Zero, 0.418), Identity)
+6. (Mix(7x7_Conv, 0.248), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [71]------------------------------
+0. (Mix(7x7_Conv, 0.378), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.539), Identity)
+2. (Mix(7x7_Conv, 0.624), 1x1_Conv)
+3. (Mix(Zero, 0.449), Identity)
+4. (Mix(7x7_Conv, 0.469), 1x1_Conv)
+5. (Mix(Zero, 0.422), Identity)
+6. (Mix(7x7_Conv, 0.238), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [72]------------------------------
+0. (Mix(7x7_Conv, 0.376), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.543), Identity)
+2. (Mix(7x7_Conv, 0.627), 1x1_Conv)
+3. (Mix(Zero, 0.454), Identity)
+4. (Mix(7x7_Conv, 0.475), 1x1_Conv)
+5. (Mix(Zero, 0.425), Identity)
+6. (Mix(5x5_Conv, 0.233), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [73]------------------------------
+0. (Mix(7x7_Conv, 0.376), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.548), Identity)
+2. (Mix(7x7_Conv, 0.639), 1x1_Conv)
+3. (Mix(Zero, 0.456), Identity)
+4. (Mix(7x7_Conv, 0.479), 1x1_Conv)
+5. (Mix(Zero, 0.428), Identity)
+6. (Mix(5x5_Conv, 0.234), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [74]------------------------------
+0. (Mix(7x7_Conv, 0.372), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.555), Identity)
+2. (Mix(7x7_Conv, 0.649), 1x1_Conv)
+3. (Mix(Zero, 0.459), Identity)
+4. (Mix(7x7_Conv, 0.481), 1x1_Conv)
+5. (Mix(Zero, 0.429), Identity)
+6. (Mix(5x5_Conv, 0.239), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [75]------------------------------
+0. (Mix(7x7_Conv, 0.374), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.552), Identity)
+2. (Mix(7x7_Conv, 0.661), 1x1_Conv)
+3. (Mix(Zero, 0.465), Identity)
+4. (Mix(7x7_Conv, 0.492), 1x1_Conv)
+5. (Mix(Zero, 0.431), Identity)
+6. (Mix(5x5_Conv, 0.241), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [76]------------------------------
+0. (Mix(7x7_Conv, 0.379), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.547), Identity)
+2. (Mix(7x7_Conv, 0.666), 1x1_Conv)
+3. (Mix(Zero, 0.468), Identity)
+4. (Mix(7x7_Conv, 0.485), 1x1_Conv)
+5. (Mix(Zero, 0.433), Identity)
+6. (Mix(5x5_Conv, 0.245), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [77]------------------------------
+0. (Mix(7x7_Conv, 0.384), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.554), Identity)
+2. (Mix(7x7_Conv, 0.672), 1x1_Conv)
+3. (Mix(Zero, 0.474), Identity)
+4. (Mix(7x7_Conv, 0.494), 1x1_Conv)
+5. (Mix(Zero, 0.434), Identity)
+6. (Mix(5x5_Conv, 0.245), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [78]------------------------------
+0. (Mix(7x7_Conv, 0.388), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.561), Identity)
+2. (Mix(7x7_Conv, 0.673), 1x1_Conv)
+3. (Mix(Zero, 0.476), Identity)
+4. (Mix(7x7_Conv, 0.497), 1x1_Conv)
+5. (Mix(Zero, 0.436), Identity)
+6. (Mix(5x5_Conv, 0.243), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [79]------------------------------
+0. (Mix(7x7_Conv, 0.386), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.581), Identity)
+2. (Mix(7x7_Conv, 0.675), 1x1_Conv)
+3. (Mix(Zero, 0.480), Identity)
+4. (Mix(7x7_Conv, 0.516), 1x1_Conv)
+5. (Mix(Zero, 0.442), Identity)
+6. (Mix(5x5_Conv, 0.241), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [80]------------------------------
+0. (Mix(7x7_Conv, 0.400), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.598), Identity)
+2. (Mix(7x7_Conv, 0.682), 1x1_Conv)
+3. (Mix(Zero, 0.487), Identity)
+4. (Mix(7x7_Conv, 0.528), 1x1_Conv)
+5. (Mix(Zero, 0.445), Identity)
+6. (Mix(5x5_Conv, 0.244), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [81]------------------------------
+0. (Mix(7x7_Conv, 0.410), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.603), Identity)
+2. (Mix(7x7_Conv, 0.683), 1x1_Conv)
+3. (Mix(Zero, 0.492), Identity)
+4. (Mix(7x7_Conv, 0.540), 1x1_Conv)
+5. (Mix(Zero, 0.445), Identity)
+6. (Mix(5x5_Conv, 0.246), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [82]------------------------------
+0. (Mix(7x7_Conv, 0.423), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.617), Identity)
+2. (Mix(7x7_Conv, 0.690), 1x1_Conv)
+3. (Mix(Zero, 0.495), Identity)
+4. (Mix(7x7_Conv, 0.559), 1x1_Conv)
+5. (Mix(Zero, 0.450), Identity)
+6. (Mix(7x7_Conv, 0.248), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [83]------------------------------
+0. (Mix(7x7_Conv, 0.428), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.634), Identity)
+2. (Mix(7x7_Conv, 0.702), 1x1_Conv)
+3. (Mix(Zero, 0.499), Identity)
+4. (Mix(7x7_Conv, 0.574), 1x1_Conv)
+5. (Mix(Zero, 0.457), Identity)
+6. (Mix(7x7_Conv, 0.253), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [84]------------------------------
+0. (Mix(7x7_Conv, 0.420), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.643), Identity)
+2. (Mix(7x7_Conv, 0.706), 1x1_Conv)
+3. (Mix(Zero, 0.504), Identity)
+4. (Mix(7x7_Conv, 0.582), 1x1_Conv)
+5. (Mix(Zero, 0.459), Identity)
+6. (Mix(7x7_Conv, 0.258), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [85]------------------------------
+0. (Mix(7x7_Conv, 0.419), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.649), Identity)
+2. (Mix(7x7_Conv, 0.710), 1x1_Conv)
+3. (Mix(Zero, 0.508), Identity)
+4. (Mix(7x7_Conv, 0.602), 1x1_Conv)
+5. (Mix(Zero, 0.462), Identity)
+6. (Mix(7x7_Conv, 0.268), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [86]------------------------------
+0. (Mix(7x7_Conv, 0.417), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.658), Identity)
+2. (Mix(7x7_Conv, 0.715), 1x1_Conv)
+3. (Mix(Zero, 0.512), Identity)
+4. (Mix(7x7_Conv, 0.618), 1x1_Conv)
+5. (Mix(Zero, 0.470), Identity)
+6. (Mix(7x7_Conv, 0.273), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [87]------------------------------
+0. (Mix(7x7_Conv, 0.418), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.668), Identity)
+2. (Mix(7x7_Conv, 0.720), 1x1_Conv)
+3. (Mix(Zero, 0.516), Identity)
+4. (Mix(7x7_Conv, 0.630), 1x1_Conv)
+5. (Mix(Zero, 0.474), Identity)
+6. (Mix(7x7_Conv, 0.281), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [88]------------------------------
+0. (Mix(7x7_Conv, 0.421), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.683), Identity)
+2. (Mix(7x7_Conv, 0.726), 1x1_Conv)
+3. (Mix(Zero, 0.522), Identity)
+4. (Mix(7x7_Conv, 0.639), 1x1_Conv)
+5. (Mix(Zero, 0.481), Identity)
+6. (Mix(7x7_Conv, 0.283), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [89]------------------------------
+0. (Mix(7x7_Conv, 0.417), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.693), Identity)
+2. (Mix(7x7_Conv, 0.730), 1x1_Conv)
+3. (Mix(Zero, 0.527), Identity)
+4. (Mix(7x7_Conv, 0.657), 1x1_Conv)
+5. (Mix(Zero, 0.484), Identity)
+6. (Mix(7x7_Conv, 0.281), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [90]------------------------------
+0. (Mix(7x7_Conv, 0.417), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.705), Identity)
+2. (Mix(7x7_Conv, 0.740), 1x1_Conv)
+3. (Mix(Zero, 0.531), Identity)
+4. (Mix(7x7_Conv, 0.671), 1x1_Conv)
+5. (Mix(Zero, 0.486), Identity)
+6. (Mix(7x7_Conv, 0.285), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [91]------------------------------
+0. (Mix(7x7_Conv, 0.420), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.705), Identity)
+2. (Mix(7x7_Conv, 0.748), 1x1_Conv)
+3. (Mix(Zero, 0.535), Identity)
+4. (Mix(7x7_Conv, 0.681), 1x1_Conv)
+5. (Mix(Zero, 0.489), Identity)
+6. (Mix(7x7_Conv, 0.285), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [92]------------------------------
+0. (Mix(7x7_Conv, 0.412), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.716), Identity)
+2. (Mix(7x7_Conv, 0.748), 1x1_Conv)
+3. (Mix(Zero, 0.538), Identity)
+4. (Mix(7x7_Conv, 0.691), 1x1_Conv)
+5. (Mix(Zero, 0.492), Identity)
+6. (Mix(7x7_Conv, 0.284), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [93]------------------------------
+0. (Mix(7x7_Conv, 0.409), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.725), Identity)
+2. (Mix(7x7_Conv, 0.753), 1x1_Conv)
+3. (Mix(Zero, 0.541), Identity)
+4. (Mix(7x7_Conv, 0.698), 1x1_Conv)
+5. (Mix(Zero, 0.494), Identity)
+6. (Mix(7x7_Conv, 0.277), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [94]------------------------------
+0. (Mix(7x7_Conv, 0.408), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.732), Identity)
+2. (Mix(7x7_Conv, 0.756), 1x1_Conv)
+3. (Mix(Zero, 0.546), Identity)
+4. (Mix(7x7_Conv, 0.709), 1x1_Conv)
+5. (Mix(Zero, 0.496), Identity)
+6. (Mix(7x7_Conv, 0.281), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [95]------------------------------
+0. (Mix(7x7_Conv, 0.411), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.744), Identity)
+2. (Mix(7x7_Conv, 0.759), 1x1_Conv)
+3. (Mix(Zero, 0.549), Identity)
+4. (Mix(7x7_Conv, 0.711), 1x1_Conv)
+5. (Mix(Zero, 0.501), Identity)
+6. (Mix(7x7_Conv, 0.282), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [96]------------------------------
+0. (Mix(7x7_Conv, 0.423), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.747), Identity)
+2. (Mix(7x7_Conv, 0.764), 1x1_Conv)
+3. (Mix(Zero, 0.550), Identity)
+4. (Mix(7x7_Conv, 0.716), 1x1_Conv)
+5. (Mix(Zero, 0.504), Identity)
+6. (Mix(7x7_Conv, 0.288), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [97]------------------------------
+0. (Mix(7x7_Conv, 0.423), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.759), Identity)
+2. (Mix(7x7_Conv, 0.768), 1x1_Conv)
+3. (Mix(Zero, 0.552), Identity)
+4. (Mix(7x7_Conv, 0.731), 1x1_Conv)
+5. (Mix(Zero, 0.508), Identity)
+6. (Mix(7x7_Conv, 0.287), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [98]------------------------------
+0. (Mix(7x7_Conv, 0.430), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.768), Identity)
+2. (Mix(7x7_Conv, 0.774), 1x1_Conv)
+3. (Mix(Zero, 0.556), Identity)
+4. (Mix(7x7_Conv, 0.734), 1x1_Conv)
+5. (Mix(Zero, 0.515), Identity)
+6. (Mix(7x7_Conv, 0.286), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [99]------------------------------
+0. (Mix(7x7_Conv, 0.444), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.775), Identity)
+2. (Mix(7x7_Conv, 0.777), 1x1_Conv)
+3. (Mix(Zero, 0.560), Identity)
+4. (Mix(7x7_Conv, 0.746), 1x1_Conv)
+5. (Mix(Zero, 0.518), Identity)
+6. (Mix(7x7_Conv, 0.283), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [100]------------------------------
+0. (Mix(7x7_Conv, 0.449), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.781), Identity)
+2. (Mix(7x7_Conv, 0.782), 1x1_Conv)
+3. (Mix(Zero, 0.563), Identity)
+4. (Mix(7x7_Conv, 0.753), 1x1_Conv)
+5. (Mix(Zero, 0.523), Identity)
+6. (Mix(7x7_Conv, 0.288), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [1]------------------------------
+0. (Mix(3x3_DepthConv, 0.125), 1x1_Conv)
+1. (Mix(5x5_DepthConv, 0.143), Identity)
+2. (Mix(3x3_Conv, 0.167), 1x1_Conv)
+3. (Mix(7x7_DepthConv, 0.143), Identity)
+4. (Mix(5x5_Conv, 0.167), 1x1_Conv)
+5. (Mix(3x3_DepthConv, 0.143), Identity)
+6. (Mix(3x3_DepthConv, 0.167), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [2]------------------------------
+0. (Mix(7x7_Conv, 0.136), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.160), Identity)
+2. (Mix(5x5_Conv, 0.183), 1x1_Conv)
+3. (Mix(Zero, 0.156), Identity)
+4. (Mix(5x5_Conv, 0.186), 1x1_Conv)
+5. (Mix(Zero, 0.153), Identity)
+6. (Mix(7x7_Conv, 0.177), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [3]------------------------------
+0. (Mix(7x7_Conv, 0.145), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.170), Identity)
+2. (Mix(7x7_Conv, 0.205), 1x1_Conv)
+3. (Mix(Zero, 0.166), Identity)
+4. (Mix(5x5_Conv, 0.196), 1x1_Conv)
+5. (Mix(Zero, 0.164), Identity)
+6. (Mix(7x7_Conv, 0.178), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [4]------------------------------
+0. (Mix(7x7_Conv, 0.156), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.181), Identity)
+2. (Mix(7x7_Conv, 0.221), 1x1_Conv)
+3. (Mix(Zero, 0.178), Identity)
+4. (Mix(5x5_Conv, 0.209), 1x1_Conv)
+5. (Mix(Zero, 0.175), Identity)
+6. (Mix(7x7_Conv, 0.178), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [5]------------------------------
+0. (Mix(7x7_Conv, 0.162), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.189), Identity)
+2. (Mix(7x7_Conv, 0.242), 1x1_Conv)
+3. (Mix(Zero, 0.186), Identity)
+4. (Mix(5x5_Conv, 0.231), 1x1_Conv)
+5. (Mix(Zero, 0.181), Identity)
+6. (Mix(3x3_Conv, 0.185), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [6]------------------------------
+0. (Mix(7x7_Conv, 0.177), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.200), Identity)
+2. (Mix(7x7_Conv, 0.260), 1x1_Conv)
+3. (Mix(Zero, 0.197), Identity)
+4. (Mix(5x5_Conv, 0.242), 1x1_Conv)
+5. (Mix(Zero, 0.185), Identity)
+6. (Mix(3x3_Conv, 0.181), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [7]------------------------------
+0. (Mix(7x7_Conv, 0.188), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.219), Identity)
+2. (Mix(7x7_Conv, 0.267), 1x1_Conv)
+3. (Mix(Zero, 0.207), Identity)
+4. (Mix(5x5_Conv, 0.241), 1x1_Conv)
+5. (Mix(Zero, 0.190), Identity)
+6. (Mix(7x7_Conv, 0.195), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [8]------------------------------
+0. (Mix(7x7_Conv, 0.197), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.231), Identity)
+2. (Mix(7x7_Conv, 0.275), 1x1_Conv)
+3. (Mix(Zero, 0.210), Identity)
+4. (Mix(5x5_Conv, 0.252), 1x1_Conv)
+5. (Mix(Zero, 0.193), Identity)
+6. (Mix(7x7_Conv, 0.199), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [9]------------------------------
+0. (Mix(7x7_Conv, 0.210), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.253), Identity)
+2. (Mix(7x7_Conv, 0.298), 1x1_Conv)
+3. (Mix(Zero, 0.217), Identity)
+4. (Mix(5x5_Conv, 0.261), 1x1_Conv)
+5. (Mix(Zero, 0.196), Identity)
+6. (Mix(7x7_Conv, 0.202), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [1]------------------------------
+0. (Mix(3x3_DepthConv, 0.125), 1x1_Conv)
+1. (Mix(5x5_DepthConv, 0.143), Identity)
+2. (Mix(3x3_Conv, 0.167), 1x1_Conv)
+3. (Mix(7x7_DepthConv, 0.143), Identity)
+4. (Mix(5x5_Conv, 0.167), 1x1_Conv)
+5. (Mix(3x3_DepthConv, 0.143), Identity)
+6. (Mix(3x3_DepthConv, 0.167), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [2]------------------------------
+0. (Mix(7x7_Conv, 0.140), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.157), Identity)
+2. (Mix(7x7_Conv, 0.185), 1x1_Conv)
+3. (Mix(5x5_Conv, 0.156), Identity)
+4. (Mix(7x7_Conv, 0.184), 1x1_Conv)
+5. (Mix(Zero, 0.151), Identity)
+6. (Mix(7x7_Conv, 0.179), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [3]------------------------------
+0. (Mix(7x7_Conv, 0.153), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.169), Identity)
+2. (Mix(7x7_Conv, 0.207), 1x1_Conv)
+3. (Mix(5x5_Conv, 0.171), Identity)
+4. (Mix(7x7_Conv, 0.199), 1x1_Conv)
+5. (Mix(Zero, 0.158), Identity)
+6. (Mix(3x3_Conv, 0.183), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [4]------------------------------
+0. (Mix(7x7_Conv, 0.167), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.182), Identity)
+2. (Mix(7x7_Conv, 0.229), 1x1_Conv)
+3. (Mix(Zero, 0.176), Identity)
+4. (Mix(7x7_Conv, 0.202), 1x1_Conv)
+5. (Mix(Zero, 0.164), Identity)
+6. (Mix(3x3_Conv, 0.186), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [5]------------------------------
+0. (Mix(7x7_Conv, 0.177), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.188), Identity)
+2. (Mix(7x7_Conv, 0.251), 1x1_Conv)
+3. (Mix(Zero, 0.183), Identity)
+4. (Mix(5x5_Conv, 0.210), 1x1_Conv)
+5. (Mix(Zero, 0.169), Identity)
+6. (Mix(3x3_Conv, 0.196), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [6]------------------------------
+0. (Mix(7x7_Conv, 0.193), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.198), Identity)
+2. (Mix(7x7_Conv, 0.266), 1x1_Conv)
+3. (Mix(Zero, 0.193), Identity)
+4. (Mix(5x5_Conv, 0.221), 1x1_Conv)
+5. (Mix(Zero, 0.174), Identity)
+6. (Mix(3x3_Conv, 0.199), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [7]------------------------------
+0. (Mix(7x7_Conv, 0.209), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.207), Identity)
+2. (Mix(7x7_Conv, 0.289), 1x1_Conv)
+3. (Mix(Zero, 0.197), Identity)
+4. (Mix(5x5_Conv, 0.222), 1x1_Conv)
+5. (Mix(Zero, 0.175), Identity)
+6. (Mix(7x7_Conv, 0.201), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [8]------------------------------
+0. (Mix(7x7_Conv, 0.214), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.203), Identity)
+2. (Mix(7x7_Conv, 0.310), 1x1_Conv)
+3. (Mix(Zero, 0.202), Identity)
+4. (Mix(5x5_Conv, 0.226), 1x1_Conv)
+5. (Mix(Zero, 0.183), Identity)
+6. (Mix(7x7_Conv, 0.202), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [9]------------------------------
+0. (Mix(7x7_Conv, 0.220), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.209), Identity)
+2. (Mix(7x7_Conv, 0.335), 1x1_Conv)
+3. (Mix(Zero, 0.210), Identity)
+4. (Mix(5x5_Conv, 0.230), 1x1_Conv)
+5. (Mix(Zero, 0.185), Identity)
+6. (Mix(7x7_Conv, 0.209), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [10]------------------------------
+0. (Mix(7x7_Conv, 0.230), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.207), Identity)
+2. (Mix(7x7_Conv, 0.352), 1x1_Conv)
+3. (Mix(Zero, 0.219), Identity)
+4. (Mix(5x5_Conv, 0.232), 1x1_Conv)
+5. (Mix(Zero, 0.191), Identity)
+6. (Mix(7x7_Conv, 0.218), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [11]------------------------------
+0. (Mix(7x7_Conv, 0.243), 1x1_Conv)
+1. (Mix(7x7_Conv, 0.212), Identity)
+2. (Mix(7x7_Conv, 0.364), 1x1_Conv)
+3. (Mix(Zero, 0.227), Identity)
+4. (Mix(7x7_Conv, 0.240), 1x1_Conv)
+5. (Mix(Zero, 0.194), Identity)
+6. (Mix(7x7_Conv, 0.214), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [12]------------------------------
+0. (Mix(7x7_Conv, 0.250), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.210), Identity)
+2. (Mix(7x7_Conv, 0.386), 1x1_Conv)
+3. (Mix(Zero, 0.234), Identity)
+4. (Mix(7x7_Conv, 0.252), 1x1_Conv)
+5. (Mix(Zero, 0.200), Identity)
+6. (Mix(7x7_Conv, 0.210), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [13]------------------------------
+0. (Mix(7x7_Conv, 0.258), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.222), Identity)
+2. (Mix(7x7_Conv, 0.403), 1x1_Conv)
+3. (Mix(Zero, 0.245), Identity)
+4. (Mix(5x5_Conv, 0.253), 1x1_Conv)
+5. (Mix(Zero, 0.210), Identity)
+6. (Mix(7x7_Conv, 0.204), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [14]------------------------------
+0. (Mix(7x7_Conv, 0.262), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.226), Identity)
+2. (Mix(7x7_Conv, 0.411), 1x1_Conv)
+3. (Mix(Zero, 0.255), Identity)
+4. (Mix(7x7_Conv, 0.249), 1x1_Conv)
+5. (Mix(Zero, 0.213), Identity)
+6. (Mix(3x3_Conv, 0.198), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [15]------------------------------
+0. (Mix(7x7_Conv, 0.264), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.223), Identity)
+2. (Mix(7x7_Conv, 0.401), 1x1_Conv)
+3. (Mix(Zero, 0.264), Identity)
+4. (Mix(5x5_Conv, 0.257), 1x1_Conv)
+5. (Mix(Zero, 0.220), Identity)
+6. (Mix(3x3_Conv, 0.205), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [16]------------------------------
+0. (Mix(7x7_Conv, 0.270), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.219), Identity)
+2. (Mix(7x7_Conv, 0.404), 1x1_Conv)
+3. (Mix(Zero, 0.266), Identity)
+4. (Mix(5x5_Conv, 0.264), 1x1_Conv)
+5. (Mix(Zero, 0.219), Identity)
+6. (Mix(3x3_Conv, 0.206), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [17]------------------------------
+0. (Mix(7x7_Conv, 0.274), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.218), Identity)
+2. (Mix(7x7_Conv, 0.403), 1x1_Conv)
+3. (Mix(Zero, 0.266), Identity)
+4. (Mix(5x5_Conv, 0.264), 1x1_Conv)
+5. (Mix(Zero, 0.217), Identity)
+6. (Mix(7x7_Conv, 0.199), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [18]------------------------------
+0. (Mix(7x7_Conv, 0.287), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.224), Identity)
+2. (Mix(7x7_Conv, 0.402), 1x1_Conv)
+3. (Mix(Zero, 0.274), Identity)
+4. (Mix(5x5_Conv, 0.287), 1x1_Conv)
+5. (Mix(Zero, 0.218), Identity)
+6. (Mix(7x7_Conv, 0.208), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [19]------------------------------
+0. (Mix(7x7_Conv, 0.299), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.225), Identity)
+2. (Mix(7x7_Conv, 0.411), 1x1_Conv)
+3. (Mix(Zero, 0.272), Identity)
+4. (Mix(5x5_Conv, 0.297), 1x1_Conv)
+5. (Mix(Zero, 0.224), Identity)
+6. (Mix(7x7_Conv, 0.200), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [20]------------------------------
+0. (Mix(7x7_Conv, 0.301), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.230), Identity)
+2. (Mix(7x7_Conv, 0.419), 1x1_Conv)
+3. (Mix(Zero, 0.274), Identity)
+4. (Mix(5x5_Conv, 0.306), 1x1_Conv)
+5. (Mix(Zero, 0.226), Identity)
+6. (Mix(7x7_Conv, 0.193), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [21]------------------------------
+0. (Mix(7x7_Conv, 0.292), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.235), Identity)
+2. (Mix(7x7_Conv, 0.444), 1x1_Conv)
+3. (Mix(Zero, 0.282), Identity)
+4. (Mix(5x5_Conv, 0.306), 1x1_Conv)
+5. (Mix(Zero, 0.231), Identity)
+6. (Mix(5x5_Conv, 0.196), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [22]------------------------------
+0. (Mix(7x7_Conv, 0.296), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.239), Identity)
+2. (Mix(7x7_Conv, 0.451), 1x1_Conv)
+3. (Mix(Zero, 0.289), Identity)
+4. (Mix(5x5_Conv, 0.305), 1x1_Conv)
+5. (Mix(Zero, 0.237), Identity)
+6. (Mix(5x5_Conv, 0.199), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [23]------------------------------
+0. (Mix(7x7_Conv, 0.306), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.238), Identity)
+2. (Mix(7x7_Conv, 0.455), 1x1_Conv)
+3. (Mix(Zero, 0.296), Identity)
+4. (Mix(5x5_Conv, 0.310), 1x1_Conv)
+5. (Mix(Zero, 0.238), Identity)
+6. (Mix(7x7_Conv, 0.197), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [24]------------------------------
+0. (Mix(7x7_Conv, 0.305), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.247), Identity)
+2. (Mix(7x7_Conv, 0.460), 1x1_Conv)
+3. (Mix(Zero, 0.301), Identity)
+4. (Mix(5x5_Conv, 0.309), 1x1_Conv)
+5. (Mix(Zero, 0.239), Identity)
+6. (Mix(3x3_Conv, 0.200), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [25]------------------------------
+0. (Mix(7x7_Conv, 0.315), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.252), Identity)
+2. (Mix(7x7_Conv, 0.471), 1x1_Conv)
+3. (Mix(Zero, 0.299), Identity)
+4. (Mix(5x5_Conv, 0.297), 1x1_Conv)
+5. (Mix(Zero, 0.238), Identity)
+6. (Mix(3x3_Conv, 0.201), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [26]------------------------------
+0. (Mix(7x7_Conv, 0.318), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.254), Identity)
+2. (Mix(7x7_Conv, 0.466), 1x1_Conv)
+3. (Mix(Zero, 0.300), Identity)
+4. (Mix(5x5_Conv, 0.299), 1x1_Conv)
+5. (Mix(Zero, 0.243), Identity)
+6. (Mix(3x3_Conv, 0.208), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [27]------------------------------
+0. (Mix(7x7_Conv, 0.334), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.250), Identity)
+2. (Mix(7x7_Conv, 0.478), 1x1_Conv)
+3. (Mix(Zero, 0.303), Identity)
+4. (Mix(5x5_Conv, 0.309), 1x1_Conv)
+5. (Mix(Zero, 0.252), Identity)
+6. (Mix(3x3_Conv, 0.207), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [28]------------------------------
+0. (Mix(7x7_Conv, 0.337), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.270), Identity)
+2. (Mix(7x7_Conv, 0.490), 1x1_Conv)
+3. (Mix(Zero, 0.309), Identity)
+4. (Mix(5x5_Conv, 0.298), 1x1_Conv)
+5. (Mix(Zero, 0.257), Identity)
+6. (Mix(3x3_Conv, 0.212), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [29]------------------------------
+0. (Mix(7x7_Conv, 0.339), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.278), Identity)
+2. (Mix(7x7_Conv, 0.479), 1x1_Conv)
+3. (Mix(Zero, 0.306), Identity)
+4. (Mix(5x5_Conv, 0.293), 1x1_Conv)
+5. (Mix(Zero, 0.260), Identity)
+6. (Mix(3x3_Conv, 0.210), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [30]------------------------------
+0. (Mix(7x7_Conv, 0.351), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.281), Identity)
+2. (Mix(7x7_Conv, 0.464), 1x1_Conv)
+3. (Mix(Zero, 0.308), Identity)
+4. (Mix(5x5_Conv, 0.286), 1x1_Conv)
+5. (Mix(Zero, 0.261), Identity)
+6. (Mix(7x7_Conv, 0.207), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [31]------------------------------
+0. (Mix(7x7_Conv, 0.342), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.297), Identity)
+2. (Mix(7x7_Conv, 0.474), 1x1_Conv)
+3. (Mix(Zero, 0.307), Identity)
+4. (Mix(5x5_Conv, 0.275), 1x1_Conv)
+5. (Mix(Zero, 0.264), Identity)
+6. (Mix(7x7_Conv, 0.210), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [32]------------------------------
+0. (Mix(7x7_Conv, 0.335), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.305), Identity)
+2. (Mix(7x7_Conv, 0.463), 1x1_Conv)
+3. (Mix(Zero, 0.305), Identity)
+4. (Mix(5x5_Conv, 0.279), 1x1_Conv)
+5. (Mix(Zero, 0.268), Identity)
+6. (Mix(7x7_Conv, 0.213), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [33]------------------------------
+0. (Mix(7x7_Conv, 0.326), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.304), Identity)
+2. (Mix(7x7_Conv, 0.452), 1x1_Conv)
+3. (Mix(Zero, 0.302), Identity)
+4. (Mix(5x5_Conv, 0.293), 1x1_Conv)
+5. (Mix(Zero, 0.271), Identity)
+6. (Mix(7x7_Conv, 0.217), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [34]------------------------------
+0. (Mix(7x7_Conv, 0.316), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.314), Identity)
+2. (Mix(7x7_Conv, 0.446), 1x1_Conv)
+3. (Mix(Zero, 0.304), Identity)
+4. (Mix(7x7_Conv, 0.282), 1x1_Conv)
+5. (Mix(Zero, 0.268), Identity)
+6. (Mix(7x7_Conv, 0.218), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [35]------------------------------
+0. (Mix(7x7_Conv, 0.307), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.334), Identity)
+2. (Mix(7x7_Conv, 0.454), 1x1_Conv)
+3. (Mix(Zero, 0.304), Identity)
+4. (Mix(5x5_Conv, 0.298), 1x1_Conv)
+5. (Mix(Zero, 0.267), Identity)
+6. (Mix(7x7_Conv, 0.206), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [36]------------------------------
+0. (Mix(7x7_Conv, 0.311), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.323), Identity)
+2. (Mix(7x7_Conv, 0.451), 1x1_Conv)
+3. (Mix(Zero, 0.306), Identity)
+4. (Mix(5x5_Conv, 0.293), 1x1_Conv)
+5. (Mix(Zero, 0.264), Identity)
+6. (Mix(7x7_Conv, 0.204), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [37]------------------------------
+0. (Mix(7x7_Conv, 0.317), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.332), Identity)
+2. (Mix(7x7_Conv, 0.448), 1x1_Conv)
+3. (Mix(Zero, 0.306), Identity)
+4. (Mix(5x5_Conv, 0.292), 1x1_Conv)
+5. (Mix(Zero, 0.261), Identity)
+6. (Mix(3x3_Conv, 0.202), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [38]------------------------------
+0. (Mix(7x7_Conv, 0.315), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.334), Identity)
+2. (Mix(7x7_Conv, 0.449), 1x1_Conv)
+3. (Mix(Zero, 0.309), Identity)
+4. (Mix(7x7_Conv, 0.289), 1x1_Conv)
+5. (Mix(Zero, 0.263), Identity)
+6. (Mix(3x3_Conv, 0.198), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [39]------------------------------
+0. (Mix(7x7_Conv, 0.326), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.340), Identity)
+2. (Mix(7x7_Conv, 0.455), 1x1_Conv)
+3. (Mix(Zero, 0.323), Identity)
+4. (Mix(7x7_Conv, 0.293), 1x1_Conv)
+5. (Mix(Zero, 0.264), Identity)
+6. (Mix(7x7_Conv, 0.213), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [40]------------------------------
+0. (Mix(7x7_Conv, 0.315), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.347), Identity)
+2. (Mix(7x7_Conv, 0.455), 1x1_Conv)
+3. (Mix(Zero, 0.329), Identity)
+4. (Mix(7x7_Conv, 0.289), 1x1_Conv)
+5. (Mix(Zero, 0.265), Identity)
+6. (Mix(7x7_Conv, 0.215), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [41]------------------------------
+0. (Mix(7x7_Conv, 0.305), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.337), Identity)
+2. (Mix(7x7_Conv, 0.453), 1x1_Conv)
+3. (Mix(Zero, 0.331), Identity)
+4. (Mix(7x7_Conv, 0.289), 1x1_Conv)
+5. (Mix(Zero, 0.265), Identity)
+6. (Mix(7x7_Conv, 0.221), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [42]------------------------------
+0. (Mix(7x7_Conv, 0.308), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.349), Identity)
+2. (Mix(7x7_Conv, 0.445), 1x1_Conv)
+3. (Mix(Zero, 0.326), Identity)
+4. (Mix(5x5_Conv, 0.293), 1x1_Conv)
+5. (Mix(Zero, 0.266), Identity)
+6. (Mix(7x7_Conv, 0.219), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [43]------------------------------
+0. (Mix(7x7_Conv, 0.302), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.359), Identity)
+2. (Mix(7x7_Conv, 0.449), 1x1_Conv)
+3. (Mix(Zero, 0.324), Identity)
+4. (Mix(7x7_Conv, 0.306), 1x1_Conv)
+5. (Mix(Zero, 0.260), Identity)
+6. (Mix(7x7_Conv, 0.219), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [44]------------------------------
+0. (Mix(7x7_Conv, 0.310), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.371), Identity)
+2. (Mix(7x7_Conv, 0.435), 1x1_Conv)
+3. (Mix(Zero, 0.329), Identity)
+4. (Mix(5x5_Conv, 0.296), 1x1_Conv)
+5. (Mix(Zero, 0.258), Identity)
+6. (Mix(7x7_Conv, 0.225), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [45]------------------------------
+0. (Mix(7x7_Conv, 0.310), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.378), Identity)
+2. (Mix(7x7_Conv, 0.430), 1x1_Conv)
+3. (Mix(Zero, 0.329), Identity)
+4. (Mix(5x5_Conv, 0.302), 1x1_Conv)
+5. (Mix(Zero, 0.257), Identity)
+6. (Mix(7x7_Conv, 0.222), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [46]------------------------------
+0. (Mix(7x7_Conv, 0.301), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.389), Identity)
+2. (Mix(7x7_Conv, 0.439), 1x1_Conv)
+3. (Mix(Zero, 0.332), Identity)
+4. (Mix(5x5_Conv, 0.305), 1x1_Conv)
+5. (Mix(Zero, 0.258), Identity)
+6. (Mix(5x5_Conv, 0.209), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [47]------------------------------
+0. (Mix(7x7_Conv, 0.312), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.381), Identity)
+2. (Mix(7x7_Conv, 0.430), 1x1_Conv)
+3. (Mix(Zero, 0.334), Identity)
+4. (Mix(5x5_Conv, 0.299), 1x1_Conv)
+5. (Mix(Zero, 0.261), Identity)
+6. (Mix(5x5_Conv, 0.213), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [48]------------------------------
+0. (Mix(7x7_Conv, 0.315), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.384), Identity)
+2. (Mix(7x7_Conv, 0.437), 1x1_Conv)
+3. (Mix(Zero, 0.328), Identity)
+4. (Mix(7x7_Conv, 0.305), 1x1_Conv)
+5. (Mix(Zero, 0.271), Identity)
+6. (Mix(7x7_Conv, 0.207), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [49]------------------------------
+0. (Mix(7x7_Conv, 0.318), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.385), Identity)
+2. (Mix(7x7_Conv, 0.435), 1x1_Conv)
+3. (Mix(Zero, 0.330), Identity)
+4. (Mix(7x7_Conv, 0.307), 1x1_Conv)
+5. (Mix(Zero, 0.273), Identity)
+6. (Mix(7x7_Conv, 0.209), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [50]------------------------------
+0. (Mix(7x7_Conv, 0.323), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.389), Identity)
+2. (Mix(7x7_Conv, 0.421), 1x1_Conv)
+3. (Mix(Zero, 0.332), Identity)
+4. (Mix(5x5_Conv, 0.307), 1x1_Conv)
+5. (Mix(Zero, 0.275), Identity)
+6. (Mix(7x7_Conv, 0.213), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [51]------------------------------
+0. (Mix(7x7_Conv, 0.322), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.387), Identity)
+2. (Mix(7x7_Conv, 0.429), 1x1_Conv)
+3. (Mix(Zero, 0.327), Identity)
+4. (Mix(7x7_Conv, 0.303), 1x1_Conv)
+5. (Mix(Zero, 0.278), Identity)
+6. (Mix(7x7_Conv, 0.209), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [52]------------------------------
+0. (Mix(7x7_Conv, 0.326), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.376), Identity)
+2. (Mix(7x7_Conv, 0.439), 1x1_Conv)
+3. (Mix(Zero, 0.325), Identity)
+4. (Mix(5x5_Conv, 0.314), 1x1_Conv)
+5. (Mix(Zero, 0.275), Identity)
+6. (Mix(5x5_Conv, 0.204), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [53]------------------------------
+0. (Mix(7x7_Conv, 0.332), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.371), Identity)
+2. (Mix(7x7_Conv, 0.431), 1x1_Conv)
+3. (Mix(Zero, 0.326), Identity)
+4. (Mix(5x5_Conv, 0.314), 1x1_Conv)
+5. (Mix(Zero, 0.273), Identity)
+6. (Mix(5x5_Conv, 0.208), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [54]------------------------------
+0. (Mix(7x7_Conv, 0.331), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.386), Identity)
+2. (Mix(7x7_Conv, 0.434), 1x1_Conv)
+3. (Mix(Zero, 0.325), Identity)
+4. (Mix(7x7_Conv, 0.314), 1x1_Conv)
+5. (Mix(Zero, 0.275), Identity)
+6. (Mix(5x5_Conv, 0.212), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [55]------------------------------
+0. (Mix(7x7_Conv, 0.328), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.385), Identity)
+2. (Mix(7x7_Conv, 0.435), 1x1_Conv)
+3. (Mix(Zero, 0.324), Identity)
+4. (Mix(5x5_Conv, 0.329), 1x1_Conv)
+5. (Mix(Zero, 0.273), Identity)
+6. (Mix(5x5_Conv, 0.222), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [56]------------------------------
+0. (Mix(7x7_Conv, 0.335), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.392), Identity)
+2. (Mix(7x7_Conv, 0.437), 1x1_Conv)
+3. (Mix(Zero, 0.322), Identity)
+4. (Mix(7x7_Conv, 0.325), 1x1_Conv)
+5. (Mix(Zero, 0.273), Identity)
+6. (Mix(5x5_Conv, 0.211), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [57]------------------------------
+0. (Mix(7x7_Conv, 0.333), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.401), Identity)
+2. (Mix(7x7_Conv, 0.441), 1x1_Conv)
+3. (Mix(Zero, 0.324), Identity)
+4. (Mix(7x7_Conv, 0.328), 1x1_Conv)
+5. (Mix(Zero, 0.270), Identity)
+6. (Mix(5x5_Conv, 0.211), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [58]------------------------------
+0. (Mix(7x7_Conv, 0.335), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.396), Identity)
+2. (Mix(7x7_Conv, 0.444), 1x1_Conv)
+3. (Mix(Zero, 0.323), Identity)
+4. (Mix(7x7_Conv, 0.316), 1x1_Conv)
+5. (Mix(Zero, 0.272), Identity)
+6. (Mix(7x7_Conv, 0.211), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [59]------------------------------
+0. (Mix(7x7_Conv, 0.335), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.401), Identity)
+2. (Mix(7x7_Conv, 0.428), 1x1_Conv)
+3. (Mix(Zero, 0.321), Identity)
+4. (Mix(7x7_Conv, 0.320), 1x1_Conv)
+5. (Mix(Zero, 0.276), Identity)
+6. (Mix(5x5_Conv, 0.203), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [60]------------------------------
+0. (Mix(7x7_Conv, 0.328), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.403), Identity)
+2. (Mix(7x7_Conv, 0.425), 1x1_Conv)
+3. (Mix(Zero, 0.325), Identity)
+4. (Mix(7x7_Conv, 0.317), 1x1_Conv)
+5. (Mix(Zero, 0.274), Identity)
+6. (Mix(3x3_Conv, 0.205), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [61]------------------------------
+0. (Mix(7x7_Conv, 0.323), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.407), Identity)
+2. (Mix(7x7_Conv, 0.430), 1x1_Conv)
+3. (Mix(Zero, 0.325), Identity)
+4. (Mix(7x7_Conv, 0.323), 1x1_Conv)
+5. (Mix(Zero, 0.271), Identity)
+6. (Mix(3x3_Conv, 0.209), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [62]------------------------------
+0. (Mix(7x7_Conv, 0.323), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.408), Identity)
+2. (Mix(7x7_Conv, 0.426), 1x1_Conv)
+3. (Mix(Zero, 0.324), Identity)
+4. (Mix(7x7_Conv, 0.328), 1x1_Conv)
+5. (Mix(Zero, 0.273), Identity)
+6. (Mix(3x3_Conv, 0.214), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [63]------------------------------
+0. (Mix(7x7_Conv, 0.316), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.419), Identity)
+2. (Mix(7x7_Conv, 0.423), 1x1_Conv)
+3. (Mix(Zero, 0.326), Identity)
+4. (Mix(7x7_Conv, 0.331), 1x1_Conv)
+5. (Mix(Zero, 0.273), Identity)
+6. (Mix(3x3_Conv, 0.212), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [64]------------------------------
+0. (Mix(7x7_Conv, 0.311), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.424), Identity)
+2. (Mix(7x7_Conv, 0.420), 1x1_Conv)
+3. (Mix(Zero, 0.324), Identity)
+4. (Mix(7x7_Conv, 0.328), 1x1_Conv)
+5. (Mix(Zero, 0.272), Identity)
+6. (Mix(3x3_Conv, 0.209), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [65]------------------------------
+0. (Mix(7x7_Conv, 0.312), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.431), Identity)
+2. (Mix(7x7_Conv, 0.400), 1x1_Conv)
+3. (Mix(Zero, 0.322), Identity)
+4. (Mix(7x7_Conv, 0.328), 1x1_Conv)
+5. (Mix(Zero, 0.277), Identity)
+6. (Mix(3x3_Conv, 0.208), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [66]------------------------------
+0. (Mix(7x7_Conv, 0.319), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.418), Identity)
+2. (Mix(7x7_Conv, 0.391), 1x1_Conv)
+3. (Mix(Zero, 0.324), Identity)
+4. (Mix(7x7_Conv, 0.328), 1x1_Conv)
+5. (Mix(Zero, 0.272), Identity)
+6. (Mix(3x3_Conv, 0.208), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [67]------------------------------
+0. (Mix(7x7_Conv, 0.318), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.438), Identity)
+2. (Mix(7x7_Conv, 0.386), 1x1_Conv)
+3. (Mix(Zero, 0.326), Identity)
+4. (Mix(5x5_Conv, 0.326), 1x1_Conv)
+5. (Mix(Zero, 0.274), Identity)
+6. (Mix(3x3_Conv, 0.214), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [68]------------------------------
+0. (Mix(7x7_Conv, 0.326), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.435), Identity)
+2. (Mix(7x7_Conv, 0.391), 1x1_Conv)
+3. (Mix(Zero, 0.326), Identity)
+4. (Mix(5x5_Conv, 0.329), 1x1_Conv)
+5. (Mix(Zero, 0.271), Identity)
+6. (Mix(3x3_Conv, 0.219), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [69]------------------------------
+0. (Mix(7x7_Conv, 0.318), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.433), Identity)
+2. (Mix(7x7_Conv, 0.396), 1x1_Conv)
+3. (Mix(Zero, 0.325), Identity)
+4. (Mix(5x5_Conv, 0.338), 1x1_Conv)
+5. (Mix(Zero, 0.275), Identity)
+6. (Mix(3x3_Conv, 0.210), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [70]------------------------------
+0. (Mix(7x7_Conv, 0.316), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.439), Identity)
+2. (Mix(7x7_Conv, 0.395), 1x1_Conv)
+3. (Mix(Zero, 0.322), Identity)
+4. (Mix(5x5_Conv, 0.338), 1x1_Conv)
+5. (Mix(Zero, 0.279), Identity)
+6. (Mix(3x3_Conv, 0.212), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [71]------------------------------
+0. (Mix(7x7_Conv, 0.325), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.447), Identity)
+2. (Mix(7x7_Conv, 0.389), 1x1_Conv)
+3. (Mix(Zero, 0.322), Identity)
+4. (Mix(5x5_Conv, 0.343), 1x1_Conv)
+5. (Mix(Zero, 0.278), Identity)
+6. (Mix(3x3_Conv, 0.210), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [72]------------------------------
+0. (Mix(7x7_Conv, 0.319), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.439), Identity)
+2. (Mix(7x7_Conv, 0.397), 1x1_Conv)
+3. (Mix(Zero, 0.325), Identity)
+4. (Mix(5x5_Conv, 0.346), 1x1_Conv)
+5. (Mix(Zero, 0.280), Identity)
+6. (Mix(3x3_Conv, 0.209), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [73]------------------------------
+0. (Mix(7x7_Conv, 0.312), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.448), Identity)
+2. (Mix(7x7_Conv, 0.414), 1x1_Conv)
+3. (Mix(Zero, 0.328), Identity)
+4. (Mix(5x5_Conv, 0.348), 1x1_Conv)
+5. (Mix(Zero, 0.280), Identity)
+6. (Mix(3x3_Conv, 0.214), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [74]------------------------------
+0. (Mix(7x7_Conv, 0.314), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.457), Identity)
+2. (Mix(7x7_Conv, 0.393), 1x1_Conv)
+3. (Mix(Zero, 0.329), Identity)
+4. (Mix(5x5_Conv, 0.350), 1x1_Conv)
+5. (Mix(Zero, 0.282), Identity)
+6. (Mix(3x3_Conv, 0.219), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [75]------------------------------
+0. (Mix(7x7_Conv, 0.320), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.461), Identity)
+2. (Mix(7x7_Conv, 0.397), 1x1_Conv)
+3. (Mix(Zero, 0.334), Identity)
+4. (Mix(5x5_Conv, 0.336), 1x1_Conv)
+5. (Mix(Zero, 0.283), Identity)
+6. (Mix(3x3_Conv, 0.221), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [76]------------------------------
+0. (Mix(7x7_Conv, 0.322), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.455), Identity)
+2. (Mix(7x7_Conv, 0.391), 1x1_Conv)
+3. (Mix(Zero, 0.330), Identity)
+4. (Mix(5x5_Conv, 0.348), 1x1_Conv)
+5. (Mix(Zero, 0.286), Identity)
+6. (Mix(5x5_Conv, 0.215), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [77]------------------------------
+0. (Mix(7x7_Conv, 0.314), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.448), Identity)
+2. (Mix(7x7_Conv, 0.373), 1x1_Conv)
+3. (Mix(Zero, 0.331), Identity)
+4. (Mix(5x5_Conv, 0.345), 1x1_Conv)
+5. (Mix(Zero, 0.283), Identity)
+6. (Mix(5x5_Conv, 0.219), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [78]------------------------------
+0. (Mix(7x7_Conv, 0.307), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.433), Identity)
+2. (Mix(7x7_Conv, 0.388), 1x1_Conv)
+3. (Mix(Zero, 0.336), Identity)
+4. (Mix(5x5_Conv, 0.333), 1x1_Conv)
+5. (Mix(Zero, 0.280), Identity)
+6. (Mix(5x5_Conv, 0.220), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [79]------------------------------
+0. (Mix(7x7_Conv, 0.319), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.430), Identity)
+2. (Mix(7x7_Conv, 0.390), 1x1_Conv)
+3. (Mix(Zero, 0.336), Identity)
+4. (Mix(5x5_Conv, 0.332), 1x1_Conv)
+5. (Mix(Zero, 0.277), Identity)
+6. (Mix(5x5_Conv, 0.221), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [80]------------------------------
+0. (Mix(7x7_Conv, 0.326), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.436), Identity)
+2. (Mix(7x7_Conv, 0.388), 1x1_Conv)
+3. (Mix(Zero, 0.337), Identity)
+4. (Mix(7x7_Conv, 0.334), 1x1_Conv)
+5. (Mix(Zero, 0.278), Identity)
+6. (Mix(5x5_Conv, 0.231), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [81]------------------------------
+0. (Mix(7x7_Conv, 0.336), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.427), Identity)
+2. (Mix(7x7_Conv, 0.396), 1x1_Conv)
+3. (Mix(Zero, 0.341), Identity)
+4. (Mix(5x5_Conv, 0.340), 1x1_Conv)
+5. (Mix(Zero, 0.285), Identity)
+6. (Mix(5x5_Conv, 0.232), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [82]------------------------------
+0. (Mix(7x7_Conv, 0.331), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.431), Identity)
+2. (Mix(7x7_Conv, 0.414), 1x1_Conv)
+3. (Mix(Zero, 0.342), Identity)
+4. (Mix(5x5_Conv, 0.352), 1x1_Conv)
+5. (Mix(Zero, 0.284), Identity)
+6. (Mix(5x5_Conv, 0.230), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [83]------------------------------
+0. (Mix(7x7_Conv, 0.326), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.429), Identity)
+2. (Mix(7x7_Conv, 0.401), 1x1_Conv)
+3. (Mix(Zero, 0.344), Identity)
+4. (Mix(5x5_Conv, 0.341), 1x1_Conv)
+5. (Mix(Zero, 0.287), Identity)
+6. (Mix(5x5_Conv, 0.223), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [84]------------------------------
+0. (Mix(7x7_Conv, 0.329), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.439), Identity)
+2. (Mix(7x7_Conv, 0.408), 1x1_Conv)
+3. (Mix(Zero, 0.345), Identity)
+4. (Mix(7x7_Conv, 0.336), 1x1_Conv)
+5. (Mix(Zero, 0.284), Identity)
+6. (Mix(5x5_Conv, 0.222), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [85]------------------------------
+0. (Mix(7x7_Conv, 0.325), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.445), Identity)
+2. (Mix(7x7_Conv, 0.404), 1x1_Conv)
+3. (Mix(Zero, 0.350), Identity)
+4. (Mix(5x5_Conv, 0.340), 1x1_Conv)
+5. (Mix(Zero, 0.277), Identity)
+6. (Mix(5x5_Conv, 0.226), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [86]------------------------------
+0. (Mix(7x7_Conv, 0.323), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.453), Identity)
+2. (Mix(7x7_Conv, 0.407), 1x1_Conv)
+3. (Mix(Zero, 0.351), Identity)
+4. (Mix(7x7_Conv, 0.344), 1x1_Conv)
+5. (Mix(Zero, 0.270), Identity)
+6. (Mix(5x5_Conv, 0.227), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [87]------------------------------
+0. (Mix(7x7_Conv, 0.317), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.443), Identity)
+2. (Mix(7x7_Conv, 0.402), 1x1_Conv)
+3. (Mix(Zero, 0.351), Identity)
+4. (Mix(7x7_Conv, 0.354), 1x1_Conv)
+5. (Mix(Zero, 0.270), Identity)
+6. (Mix(5x5_Conv, 0.225), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [88]------------------------------
+0. (Mix(7x7_Conv, 0.316), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.447), Identity)
+2. (Mix(7x7_Conv, 0.395), 1x1_Conv)
+3. (Mix(Zero, 0.354), Identity)
+4. (Mix(7x7_Conv, 0.362), 1x1_Conv)
+5. (Mix(Zero, 0.273), Identity)
+6. (Mix(5x5_Conv, 0.229), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [89]------------------------------
+0. (Mix(7x7_Conv, 0.319), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.434), Identity)
+2. (Mix(7x7_Conv, 0.387), 1x1_Conv)
+3. (Mix(Zero, 0.353), Identity)
+4. (Mix(7x7_Conv, 0.373), 1x1_Conv)
+5. (Mix(Zero, 0.274), Identity)
+6. (Mix(5x5_Conv, 0.227), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [90]------------------------------
+0. (Mix(7x7_Conv, 0.326), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.430), Identity)
+2. (Mix(7x7_Conv, 0.379), 1x1_Conv)
+3. (Mix(Zero, 0.354), Identity)
+4. (Mix(7x7_Conv, 0.371), 1x1_Conv)
+5. (Mix(Zero, 0.276), Identity)
+6. (Mix(5x5_Conv, 0.231), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [91]------------------------------
+0. (Mix(7x7_Conv, 0.323), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.430), Identity)
+2. (Mix(7x7_Conv, 0.384), 1x1_Conv)
+3. (Mix(Zero, 0.357), Identity)
+4. (Mix(7x7_Conv, 0.354), 1x1_Conv)
+5. (Mix(Zero, 0.272), Identity)
+6. (Mix(5x5_Conv, 0.226), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [92]------------------------------
+0. (Mix(7x7_Conv, 0.319), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.433), Identity)
+2. (Mix(7x7_Conv, 0.390), 1x1_Conv)
+3. (Mix(Zero, 0.362), Identity)
+4. (Mix(7x7_Conv, 0.349), 1x1_Conv)
+5. (Mix(Zero, 0.272), Identity)
+6. (Mix(5x5_Conv, 0.231), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [93]------------------------------
+0. (Mix(7x7_Conv, 0.320), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.449), Identity)
+2. (Mix(7x7_Conv, 0.396), 1x1_Conv)
+3. (Mix(Zero, 0.366), Identity)
+4. (Mix(7x7_Conv, 0.350), 1x1_Conv)
+5. (Mix(Zero, 0.277), Identity)
+6. (Mix(5x5_Conv, 0.230), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [94]------------------------------
+0. (Mix(7x7_Conv, 0.327), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.471), Identity)
+2. (Mix(7x7_Conv, 0.398), 1x1_Conv)
+3. (Mix(Zero, 0.369), Identity)
+4. (Mix(7x7_Conv, 0.356), 1x1_Conv)
+5. (Mix(Zero, 0.275), Identity)
+6. (Mix(3x3_Conv, 0.220), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [95]------------------------------
+0. (Mix(7x7_Conv, 0.328), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.473), Identity)
+2. (Mix(7x7_Conv, 0.416), 1x1_Conv)
+3. (Mix(Zero, 0.371), Identity)
+4. (Mix(7x7_Conv, 0.354), 1x1_Conv)
+5. (Mix(Zero, 0.276), Identity)
+6. (Mix(3x3_Conv, 0.218), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [96]------------------------------
+0. (Mix(7x7_Conv, 0.352), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.462), Identity)
+2. (Mix(7x7_Conv, 0.409), 1x1_Conv)
+3. (Mix(Zero, 0.370), Identity)
+4. (Mix(7x7_Conv, 0.346), 1x1_Conv)
+5. (Mix(Zero, 0.278), Identity)
+6. (Mix(5x5_Conv, 0.220), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [97]------------------------------
+0. (Mix(7x7_Conv, 0.357), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.475), Identity)
+2. (Mix(7x7_Conv, 0.413), 1x1_Conv)
+3. (Mix(Zero, 0.370), Identity)
+4. (Mix(7x7_Conv, 0.352), 1x1_Conv)
+5. (Mix(Zero, 0.277), Identity)
+6. (Mix(3x3_Conv, 0.226), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [98]------------------------------
+0. (Mix(7x7_Conv, 0.360), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.475), Identity)
+2. (Mix(7x7_Conv, 0.421), 1x1_Conv)
+3. (Mix(Zero, 0.376), Identity)
+4. (Mix(7x7_Conv, 0.366), 1x1_Conv)
+5. (Mix(Zero, 0.271), Identity)
+6. (Mix(3x3_Conv, 0.237), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [99]------------------------------
+0. (Mix(7x7_Conv, 0.363), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.478), Identity)
+2. (Mix(7x7_Conv, 0.413), 1x1_Conv)
+3. (Mix(Zero, 0.371), Identity)
+4. (Mix(7x7_Conv, 0.362), 1x1_Conv)
+5. (Mix(Zero, 0.270), Identity)
+6. (Mix(3x3_Conv, 0.237), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [100]------------------------------
+0. (Mix(7x7_Conv, 0.354), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.480), Identity)
+2. (Mix(7x7_Conv, 0.417), 1x1_Conv)
+3. (Mix(Zero, 0.370), Identity)
+4. (Mix(7x7_Conv, 0.368), 1x1_Conv)
+5. (Mix(Zero, 0.268), Identity)
+6. (Mix(3x3_Conv, 0.238), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [101]------------------------------
+0. (Mix(7x7_Conv, 0.346), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.491), Identity)
+2. (Mix(7x7_Conv, 0.424), 1x1_Conv)
+3. (Mix(Zero, 0.372), Identity)
+4. (Mix(7x7_Conv, 0.368), 1x1_Conv)
+5. (Mix(Zero, 0.266), Identity)
+6. (Mix(3x3_Conv, 0.242), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [102]------------------------------
+0. (Mix(7x7_Conv, 0.349), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.490), Identity)
+2. (Mix(7x7_Conv, 0.431), 1x1_Conv)
+3. (Mix(Zero, 0.374), Identity)
+4. (Mix(7x7_Conv, 0.374), 1x1_Conv)
+5. (Mix(Zero, 0.262), Identity)
+6. (Mix(3x3_Conv, 0.243), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [103]------------------------------
+0. (Mix(7x7_Conv, 0.351), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.491), Identity)
+2. (Mix(7x7_Conv, 0.408), 1x1_Conv)
+3. (Mix(Zero, 0.375), Identity)
+4. (Mix(7x7_Conv, 0.380), 1x1_Conv)
+5. (Mix(Zero, 0.256), Identity)
+6. (Mix(3x3_Conv, 0.234), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [104]------------------------------
+0. (Mix(7x7_Conv, 0.357), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.480), Identity)
+2. (Mix(7x7_Conv, 0.410), 1x1_Conv)
+3. (Mix(Zero, 0.379), Identity)
+4. (Mix(7x7_Conv, 0.384), 1x1_Conv)
+5. (Mix(Zero, 0.258), Identity)
+6. (Mix(3x3_Conv, 0.232), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [105]------------------------------
+0. (Mix(7x7_Conv, 0.358), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.475), Identity)
+2. (Mix(7x7_Conv, 0.413), 1x1_Conv)
+3. (Mix(Zero, 0.378), Identity)
+4. (Mix(7x7_Conv, 0.398), 1x1_Conv)
+5. (Mix(Zero, 0.255), Identity)
+6. (Mix(3x3_Conv, 0.231), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [106]------------------------------
+0. (Mix(7x7_Conv, 0.359), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.483), Identity)
+2. (Mix(7x7_Conv, 0.394), 1x1_Conv)
+3. (Mix(Zero, 0.380), Identity)
+4. (Mix(7x7_Conv, 0.401), 1x1_Conv)
+5. (Mix(Zero, 0.248), Identity)
+6. (Mix(3x3_Conv, 0.240), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [107]------------------------------
+0. (Mix(7x7_Conv, 0.361), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.481), Identity)
+2. (Mix(7x7_Conv, 0.400), 1x1_Conv)
+3. (Mix(Zero, 0.384), Identity)
+4. (Mix(7x7_Conv, 0.373), 1x1_Conv)
+5. (Mix(Zero, 0.242), Identity)
+6. (Mix(3x3_Conv, 0.239), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [108]------------------------------
+0. (Mix(7x7_Conv, 0.359), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.490), Identity)
+2. (Mix(7x7_Conv, 0.406), 1x1_Conv)
+3. (Mix(Zero, 0.388), Identity)
+4. (Mix(7x7_Conv, 0.381), 1x1_Conv)
+5. (Mix(Zero, 0.240), Identity)
+6. (Mix(3x3_Conv, 0.240), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [109]------------------------------
+0. (Mix(7x7_Conv, 0.355), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.502), Identity)
+2. (Mix(7x7_Conv, 0.411), 1x1_Conv)
+3. (Mix(Zero, 0.391), Identity)
+4. (Mix(7x7_Conv, 0.373), 1x1_Conv)
+5. (Mix(Zero, 0.235), Identity)
+6. (Mix(3x3_Conv, 0.251), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [110]------------------------------
+0. (Mix(7x7_Conv, 0.351), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.507), Identity)
+2. (Mix(7x7_Conv, 0.405), 1x1_Conv)
+3. (Mix(Zero, 0.390), Identity)
+4. (Mix(7x7_Conv, 0.371), 1x1_Conv)
+5. (Mix(Zero, 0.234), Identity)
+6. (Mix(3x3_Conv, 0.258), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [111]------------------------------
+0. (Mix(7x7_Conv, 0.359), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.518), Identity)
+2. (Mix(7x7_Conv, 0.411), 1x1_Conv)
+3. (Mix(Zero, 0.395), Identity)
+4. (Mix(7x7_Conv, 0.367), 1x1_Conv)
+5. (Mix(Zero, 0.232), Identity)
+6. (Mix(3x3_Conv, 0.250), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [112]------------------------------
+0. (Mix(7x7_Conv, 0.342), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.521), Identity)
+2. (Mix(7x7_Conv, 0.406), 1x1_Conv)
+3. (Mix(Zero, 0.399), Identity)
+4. (Mix(7x7_Conv, 0.364), 1x1_Conv)
+5. (Mix(Zero, 0.232), Identity)
+6. (Mix(3x3_Conv, 0.249), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [113]------------------------------
+0. (Mix(7x7_Conv, 0.334), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.503), Identity)
+2. (Mix(7x7_Conv, 0.394), 1x1_Conv)
+3. (Mix(Zero, 0.410), Identity)
+4. (Mix(5x5_Conv, 0.384), 1x1_Conv)
+5. (Mix(Zero, 0.228), Identity)
+6. (Mix(3x3_Conv, 0.258), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [114]------------------------------
+0. (Mix(7x7_Conv, 0.333), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.501), Identity)
+2. (Mix(7x7_Conv, 0.409), 1x1_Conv)
+3. (Mix(Zero, 0.416), Identity)
+4. (Mix(5x5_Conv, 0.362), 1x1_Conv)
+5. (Mix(Zero, 0.231), Identity)
+6. (Mix(3x3_Conv, 0.250), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [115]------------------------------
+0. (Mix(7x7_Conv, 0.346), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.512), Identity)
+2. (Mix(7x7_Conv, 0.408), 1x1_Conv)
+3. (Mix(Zero, 0.418), Identity)
+4. (Mix(5x5_Conv, 0.363), 1x1_Conv)
+5. (Mix(Zero, 0.232), Identity)
+6. (Mix(3x3_Conv, 0.240), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [116]------------------------------
+0. (Mix(7x7_Conv, 0.354), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.506), Identity)
+2. (Mix(7x7_Conv, 0.396), 1x1_Conv)
+3. (Mix(Zero, 0.420), Identity)
+4. (Mix(5x5_Conv, 0.379), 1x1_Conv)
+5. (Mix(Zero, 0.225), Identity)
+6. (Mix(5x5_Conv, 0.237), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [117]------------------------------
+0. (Mix(7x7_Conv, 0.353), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.503), Identity)
+2. (Mix(7x7_Conv, 0.374), 1x1_Conv)
+3. (Mix(Zero, 0.425), Identity)
+4. (Mix(5x5_Conv, 0.385), 1x1_Conv)
+5. (Mix(Zero, 0.227), Identity)
+6. (Mix(5x5_Conv, 0.246), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [118]------------------------------
+0. (Mix(7x7_Conv, 0.352), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.490), Identity)
+2. (Mix(7x7_Conv, 0.383), 1x1_Conv)
+3. (Mix(Zero, 0.422), Identity)
+4. (Mix(5x5_Conv, 0.367), 1x1_Conv)
+5. (Mix(Zero, 0.225), Identity)
+6. (Mix(5x5_Conv, 0.254), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [119]------------------------------
+0. (Mix(7x7_Conv, 0.354), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.474), Identity)
+2. (Mix(7x7_Conv, 0.384), 1x1_Conv)
+3. (Mix(Zero, 0.421), Identity)
+4. (Mix(5x5_Conv, 0.366), 1x1_Conv)
+5. (Mix(Zero, 0.229), Identity)
+6. (Mix(5x5_Conv, 0.272), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [120]------------------------------
+0. (Mix(7x7_Conv, 0.353), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.459), Identity)
+2. (Mix(7x7_Conv, 0.390), 1x1_Conv)
+3. (Mix(Zero, 0.427), Identity)
+4. (Mix(7x7_Conv, 0.377), 1x1_Conv)
+5. (Mix(Zero, 0.233), Identity)
+6. (Mix(5x5_Conv, 0.282), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [121]------------------------------
+0. (Mix(7x7_Conv, 0.349), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.470), Identity)
+2. (Mix(7x7_Conv, 0.406), 1x1_Conv)
+3. (Mix(Zero, 0.430), Identity)
+4. (Mix(7x7_Conv, 0.377), 1x1_Conv)
+5. (Mix(Zero, 0.232), Identity)
+6. (Mix(5x5_Conv, 0.279), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [122]------------------------------
+0. (Mix(7x7_Conv, 0.339), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.474), Identity)
+2. (Mix(7x7_Conv, 0.398), 1x1_Conv)
+3. (Mix(Zero, 0.436), Identity)
+4. (Mix(7x7_Conv, 0.365), 1x1_Conv)
+5. (Mix(Zero, 0.232), Identity)
+6. (Mix(5x5_Conv, 0.272), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [123]------------------------------
+0. (Mix(7x7_Conv, 0.334), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.476), Identity)
+2. (Mix(7x7_Conv, 0.406), 1x1_Conv)
+3. (Mix(Zero, 0.440), Identity)
+4. (Mix(7x7_Conv, 0.376), 1x1_Conv)
+5. (Mix(Zero, 0.225), Identity)
+6. (Mix(5x5_Conv, 0.278), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [124]------------------------------
+0. (Mix(7x7_Conv, 0.338), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.476), Identity)
+2. (Mix(7x7_Conv, 0.413), 1x1_Conv)
+3. (Mix(Zero, 0.444), Identity)
+4. (Mix(7x7_Conv, 0.373), 1x1_Conv)
+5. (Mix(Zero, 0.220), Identity)
+6. (Mix(5x5_Conv, 0.278), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [125]------------------------------
+0. (Mix(7x7_Conv, 0.331), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.475), Identity)
+2. (Mix(7x7_Conv, 0.418), 1x1_Conv)
+3. (Mix(Zero, 0.449), Identity)
+4. (Mix(7x7_Conv, 0.398), 1x1_Conv)
+5. (Mix(Zero, 0.216), Identity)
+6. (Mix(5x5_Conv, 0.297), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [126]------------------------------
+0. (Mix(7x7_Conv, 0.338), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.465), Identity)
+2. (Mix(7x7_Conv, 0.418), 1x1_Conv)
+3. (Mix(Zero, 0.446), Identity)
+4. (Mix(7x7_Conv, 0.392), 1x1_Conv)
+5. (Mix(Zero, 0.214), Identity)
+6. (Mix(5x5_Conv, 0.307), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [127]------------------------------
+0. (Mix(7x7_Conv, 0.347), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.452), Identity)
+2. (Mix(7x7_Conv, 0.419), 1x1_Conv)
+3. (Mix(Zero, 0.444), Identity)
+4. (Mix(7x7_Conv, 0.397), 1x1_Conv)
+5. (Mix(Zero, 0.213), Identity)
+6. (Mix(5x5_Conv, 0.308), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [128]------------------------------
+0. (Mix(7x7_Conv, 0.348), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.434), Identity)
+2. (Mix(7x7_Conv, 0.420), 1x1_Conv)
+3. (Mix(Zero, 0.449), Identity)
+4. (Mix(7x7_Conv, 0.406), 1x1_Conv)
+5. (Mix(5x5_Conv, 0.225), Identity)
+6. (Mix(5x5_Conv, 0.294), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [129]------------------------------
+0. (Mix(7x7_Conv, 0.359), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.452), Identity)
+2. (Mix(7x7_Conv, 0.418), 1x1_Conv)
+3. (Mix(Zero, 0.458), Identity)
+4. (Mix(7x7_Conv, 0.416), 1x1_Conv)
+5. (Mix(5x5_Conv, 0.221), Identity)
+6. (Mix(5x5_Conv, 0.288), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [130]------------------------------
+0. (Mix(7x7_Conv, 0.368), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.466), Identity)
+2. (Mix(7x7_Conv, 0.413), 1x1_Conv)
+3. (Mix(Zero, 0.460), Identity)
+4. (Mix(7x7_Conv, 0.405), 1x1_Conv)
+5. (Mix(5x5_Conv, 0.220), Identity)
+6. (Mix(5x5_Conv, 0.295), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [131]------------------------------
+0. (Mix(7x7_Conv, 0.365), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.471), Identity)
+2. (Mix(7x7_Conv, 0.419), 1x1_Conv)
+3. (Mix(Zero, 0.466), Identity)
+4. (Mix(7x7_Conv, 0.400), 1x1_Conv)
+5. (Mix(Zero, 0.222), Identity)
+6. (Mix(5x5_Conv, 0.287), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [132]------------------------------
+0. (Mix(7x7_Conv, 0.368), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.478), Identity)
+2. (Mix(7x7_Conv, 0.416), 1x1_Conv)
+3. (Mix(Zero, 0.469), Identity)
+4. (Mix(7x7_Conv, 0.401), 1x1_Conv)
+5. (Mix(Zero, 0.220), Identity)
+6. (Mix(5x5_Conv, 0.289), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [133]------------------------------
+0. (Mix(7x7_Conv, 0.368), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.478), Identity)
+2. (Mix(7x7_Conv, 0.417), 1x1_Conv)
+3. (Mix(Zero, 0.477), Identity)
+4. (Mix(7x7_Conv, 0.401), 1x1_Conv)
+5. (Mix(Zero, 0.217), Identity)
+6. (Mix(5x5_Conv, 0.278), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [134]------------------------------
+0. (Mix(7x7_Conv, 0.370), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.495), Identity)
+2. (Mix(7x7_Conv, 0.416), 1x1_Conv)
+3. (Mix(Zero, 0.480), Identity)
+4. (Mix(7x7_Conv, 0.396), 1x1_Conv)
+5. (Mix(Zero, 0.212), Identity)
+6. (Mix(3x3_Conv, 0.280), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [135]------------------------------
+0. (Mix(7x7_Conv, 0.367), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.495), Identity)
+2. (Mix(7x7_Conv, 0.412), 1x1_Conv)
+3. (Mix(Zero, 0.480), Identity)
+4. (Mix(7x7_Conv, 0.420), 1x1_Conv)
+5. (Mix(5x5_Conv, 0.214), Identity)
+6. (Mix(3x3_Conv, 0.288), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [136]------------------------------
+0. (Mix(7x7_Conv, 0.356), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.502), Identity)
+2. (Mix(7x7_Conv, 0.415), 1x1_Conv)
+3. (Mix(Zero, 0.483), Identity)
+4. (Mix(7x7_Conv, 0.431), 1x1_Conv)
+5. (Mix(5x5_Conv, 0.225), Identity)
+6. (Mix(3x3_Conv, 0.291), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [137]------------------------------
+0. (Mix(7x7_Conv, 0.353), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.488), Identity)
+2. (Mix(7x7_Conv, 0.428), 1x1_Conv)
+3. (Mix(Zero, 0.483), Identity)
+4. (Mix(7x7_Conv, 0.433), 1x1_Conv)
+5. (Mix(Zero, 0.216), Identity)
+6. (Mix(3x3_Conv, 0.295), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [138]------------------------------
+0. (Mix(7x7_Conv, 0.362), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.473), Identity)
+2. (Mix(7x7_Conv, 0.432), 1x1_Conv)
+3. (Mix(Zero, 0.484), Identity)
+4. (Mix(7x7_Conv, 0.449), 1x1_Conv)
+5. (Mix(Zero, 0.217), Identity)
+6. (Mix(3x3_Conv, 0.307), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [139]------------------------------
+0. (Mix(7x7_Conv, 0.376), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.466), Identity)
+2. (Mix(7x7_Conv, 0.431), 1x1_Conv)
+3. (Mix(Zero, 0.489), Identity)
+4. (Mix(7x7_Conv, 0.453), 1x1_Conv)
+5. (Mix(Zero, 0.216), Identity)
+6. (Mix(3x3_Conv, 0.303), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [140]------------------------------
+0. (Mix(7x7_Conv, 0.381), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.477), Identity)
+2. (Mix(7x7_Conv, 0.440), 1x1_Conv)
+3. (Mix(Zero, 0.488), Identity)
+4. (Mix(7x7_Conv, 0.437), 1x1_Conv)
+5. (Mix(Zero, 0.212), Identity)
+6. (Mix(3x3_Conv, 0.298), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [141]------------------------------
+0. (Mix(7x7_Conv, 0.383), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.479), Identity)
+2. (Mix(7x7_Conv, 0.427), 1x1_Conv)
+3. (Mix(Zero, 0.493), Identity)
+4. (Mix(7x7_Conv, 0.440), 1x1_Conv)
+5. (Mix(Zero, 0.211), Identity)
+6. (Mix(3x3_Conv, 0.290), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [142]------------------------------
+0. (Mix(7x7_Conv, 0.384), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.474), Identity)
+2. (Mix(7x7_Conv, 0.424), 1x1_Conv)
+3. (Mix(Zero, 0.495), Identity)
+4. (Mix(7x7_Conv, 0.452), 1x1_Conv)
+5. (Mix(Zero, 0.212), Identity)
+6. (Mix(3x3_Conv, 0.288), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [143]------------------------------
+0. (Mix(7x7_Conv, 0.386), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.469), Identity)
+2. (Mix(7x7_Conv, 0.433), 1x1_Conv)
+3. (Mix(Zero, 0.499), Identity)
+4. (Mix(7x7_Conv, 0.461), 1x1_Conv)
+5. (Mix(Zero, 0.205), Identity)
+6. (Mix(3x3_Conv, 0.285), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [144]------------------------------
+0. (Mix(7x7_Conv, 0.400), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.446), Identity)
+2. (Mix(7x7_Conv, 0.414), 1x1_Conv)
+3. (Mix(Zero, 0.506), Identity)
+4. (Mix(7x7_Conv, 0.453), 1x1_Conv)
+5. (Mix(Zero, 0.204), Identity)
+6. (Mix(3x3_Conv, 0.283), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [145]------------------------------
+0. (Mix(7x7_Conv, 0.406), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.459), Identity)
+2. (Mix(7x7_Conv, 0.426), 1x1_Conv)
+3. (Mix(Zero, 0.504), Identity)
+4. (Mix(7x7_Conv, 0.450), 1x1_Conv)
+5. (Mix(Zero, 0.205), Identity)
+6. (Mix(3x3_Conv, 0.295), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [146]------------------------------
+0. (Mix(7x7_Conv, 0.415), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.445), Identity)
+2. (Mix(7x7_Conv, 0.440), 1x1_Conv)
+3. (Mix(Zero, 0.509), Identity)
+4. (Mix(7x7_Conv, 0.441), 1x1_Conv)
+5. (Mix(Zero, 0.206), Identity)
+6. (Mix(3x3_Conv, 0.296), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [147]------------------------------
+0. (Mix(7x7_Conv, 0.428), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.463), Identity)
+2. (Mix(7x7_Conv, 0.432), 1x1_Conv)
+3. (Mix(Zero, 0.513), Identity)
+4. (Mix(7x7_Conv, 0.439), 1x1_Conv)
+5. (Mix(Zero, 0.205), Identity)
+6. (Mix(3x3_Conv, 0.275), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [148]------------------------------
+0. (Mix(7x7_Conv, 0.412), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.490), Identity)
+2. (Mix(7x7_Conv, 0.431), 1x1_Conv)
+3. (Mix(Zero, 0.513), Identity)
+4. (Mix(7x7_Conv, 0.450), 1x1_Conv)
+5. (Mix(Zero, 0.209), Identity)
+6. (Mix(3x3_Conv, 0.268), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [149]------------------------------
+0. (Mix(7x7_Conv, 0.423), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.508), Identity)
+2. (Mix(7x7_Conv, 0.457), 1x1_Conv)
+3. (Mix(Zero, 0.518), Identity)
+4. (Mix(7x7_Conv, 0.452), 1x1_Conv)
+5. (Mix(Zero, 0.215), Identity)
+6. (Mix(3x3_Conv, 0.258), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [150]------------------------------
+0. (Mix(7x7_Conv, 0.417), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.512), Identity)
+2. (Mix(7x7_Conv, 0.460), 1x1_Conv)
+3. (Mix(Zero, 0.521), Identity)
+4. (Mix(7x7_Conv, 0.442), 1x1_Conv)
+5. (Mix(Zero, 0.212), Identity)
+6. (Mix(3x3_Conv, 0.267), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [151]------------------------------
+0. (Mix(7x7_Conv, 0.412), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.528), Identity)
+2. (Mix(7x7_Conv, 0.458), 1x1_Conv)
+3. (Mix(Zero, 0.522), Identity)
+4. (Mix(7x7_Conv, 0.448), 1x1_Conv)
+5. (Mix(Zero, 0.210), Identity)
+6. (Mix(3x3_Conv, 0.284), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [152]------------------------------
+0. (Mix(7x7_Conv, 0.401), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.549), Identity)
+2. (Mix(7x7_Conv, 0.461), 1x1_Conv)
+3. (Mix(Zero, 0.525), Identity)
+4. (Mix(7x7_Conv, 0.447), 1x1_Conv)
+5. (Mix(Zero, 0.214), Identity)
+6. (Mix(3x3_Conv, 0.274), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [153]------------------------------
+0. (Mix(7x7_Conv, 0.390), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.553), Identity)
+2. (Mix(7x7_Conv, 0.447), 1x1_Conv)
+3. (Mix(Zero, 0.528), Identity)
+4. (Mix(7x7_Conv, 0.452), 1x1_Conv)
+5. (Mix(Zero, 0.214), Identity)
+6. (Mix(3x3_Conv, 0.276), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [154]------------------------------
+0. (Mix(7x7_Conv, 0.407), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.550), Identity)
+2. (Mix(7x7_Conv, 0.434), 1x1_Conv)
+3. (Mix(Zero, 0.533), Identity)
+4. (Mix(7x7_Conv, 0.452), 1x1_Conv)
+5. (Mix(Zero, 0.217), Identity)
+6. (Mix(3x3_Conv, 0.268), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [155]------------------------------
+0. (Mix(7x7_Conv, 0.412), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.556), Identity)
+2. (Mix(7x7_Conv, 0.444), 1x1_Conv)
+3. (Mix(Zero, 0.534), Identity)
+4. (Mix(7x7_Conv, 0.455), 1x1_Conv)
+5. (Mix(Zero, 0.226), Identity)
+6. (Mix(3x3_Conv, 0.262), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [156]------------------------------
+0. (Mix(7x7_Conv, 0.414), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.555), Identity)
+2. (Mix(7x7_Conv, 0.450), 1x1_Conv)
+3. (Mix(Zero, 0.535), Identity)
+4. (Mix(7x7_Conv, 0.461), 1x1_Conv)
+5. (Mix(Zero, 0.226), Identity)
+6. (Mix(3x3_Conv, 0.261), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [157]------------------------------
+0. (Mix(7x7_Conv, 0.426), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.542), Identity)
+2. (Mix(7x7_Conv, 0.458), 1x1_Conv)
+3. (Mix(Zero, 0.536), Identity)
+4. (Mix(7x7_Conv, 0.460), 1x1_Conv)
+5. (Mix(Zero, 0.231), Identity)
+6. (Mix(5x5_Conv, 0.283), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [158]------------------------------
+0. (Mix(7x7_Conv, 0.434), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.529), Identity)
+2. (Mix(7x7_Conv, 0.470), 1x1_Conv)
+3. (Mix(Zero, 0.540), Identity)
+4. (Mix(7x7_Conv, 0.483), 1x1_Conv)
+5. (Mix(Zero, 0.234), Identity)
+6. (Mix(5x5_Conv, 0.296), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [159]------------------------------
+0. (Mix(7x7_Conv, 0.439), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.522), Identity)
+2. (Mix(7x7_Conv, 0.473), 1x1_Conv)
+3. (Mix(Zero, 0.545), Identity)
+4. (Mix(7x7_Conv, 0.503), 1x1_Conv)
+5. (Mix(Zero, 0.238), Identity)
+6. (Mix(5x5_Conv, 0.298), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [160]------------------------------
+0. (Mix(7x7_Conv, 0.440), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.515), Identity)
+2. (Mix(7x7_Conv, 0.482), 1x1_Conv)
+3. (Mix(Zero, 0.549), Identity)
+4. (Mix(7x7_Conv, 0.508), 1x1_Conv)
+5. (Mix(Zero, 0.242), Identity)
+6. (Mix(5x5_Conv, 0.293), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [161]------------------------------
+0. (Mix(7x7_Conv, 0.439), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.501), Identity)
+2. (Mix(7x7_Conv, 0.482), 1x1_Conv)
+3. (Mix(Zero, 0.553), Identity)
+4. (Mix(7x7_Conv, 0.502), 1x1_Conv)
+5. (Mix(Zero, 0.248), Identity)
+6. (Mix(5x5_Conv, 0.292), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [162]------------------------------
+0. (Mix(7x7_Conv, 0.434), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.507), Identity)
+2. (Mix(7x7_Conv, 0.508), 1x1_Conv)
+3. (Mix(Zero, 0.557), Identity)
+4. (Mix(7x7_Conv, 0.499), 1x1_Conv)
+5. (Mix(Zero, 0.250), Identity)
+6. (Mix(5x5_Conv, 0.285), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [163]------------------------------
+0. (Mix(7x7_Conv, 0.442), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.492), Identity)
+2. (Mix(7x7_Conv, 0.511), 1x1_Conv)
+3. (Mix(Zero, 0.559), Identity)
+4. (Mix(7x7_Conv, 0.499), 1x1_Conv)
+5. (Mix(Zero, 0.257), Identity)
+6. (Mix(5x5_Conv, 0.285), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [164]------------------------------
+0. (Mix(7x7_Conv, 0.461), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.504), Identity)
+2. (Mix(7x7_Conv, 0.511), 1x1_Conv)
+3. (Mix(Zero, 0.563), Identity)
+4. (Mix(7x7_Conv, 0.495), 1x1_Conv)
+5. (Mix(Zero, 0.261), Identity)
+6. (Mix(5x5_Conv, 0.294), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [165]------------------------------
+0. (Mix(7x7_Conv, 0.480), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.519), Identity)
+2. (Mix(7x7_Conv, 0.507), 1x1_Conv)
+3. (Mix(Zero, 0.565), Identity)
+4. (Mix(7x7_Conv, 0.491), 1x1_Conv)
+5. (Mix(Zero, 0.263), Identity)
+6. (Mix(5x5_Conv, 0.312), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [166]------------------------------
+0. (Mix(7x7_Conv, 0.485), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.519), Identity)
+2. (Mix(7x7_Conv, 0.516), 1x1_Conv)
+3. (Mix(Zero, 0.567), Identity)
+4. (Mix(7x7_Conv, 0.484), 1x1_Conv)
+5. (Mix(Zero, 0.262), Identity)
+6. (Mix(5x5_Conv, 0.296), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [167]------------------------------
+0. (Mix(7x7_Conv, 0.499), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.537), Identity)
+2. (Mix(7x7_Conv, 0.518), 1x1_Conv)
+3. (Mix(Zero, 0.569), Identity)
+4. (Mix(7x7_Conv, 0.474), 1x1_Conv)
+5. (Mix(Zero, 0.264), Identity)
+6. (Mix(5x5_Conv, 0.286), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [168]------------------------------
+0. (Mix(7x7_Conv, 0.503), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.555), Identity)
+2. (Mix(7x7_Conv, 0.528), 1x1_Conv)
+3. (Mix(Zero, 0.570), Identity)
+4. (Mix(7x7_Conv, 0.484), 1x1_Conv)
+5. (Mix(Zero, 0.270), Identity)
+6. (Mix(5x5_Conv, 0.280), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [169]------------------------------
+0. (Mix(7x7_Conv, 0.501), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.564), Identity)
+2. (Mix(7x7_Conv, 0.518), 1x1_Conv)
+3. (Mix(Zero, 0.569), Identity)
+4. (Mix(7x7_Conv, 0.495), 1x1_Conv)
+5. (Mix(Zero, 0.269), Identity)
+6. (Mix(3x3_Conv, 0.279), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [170]------------------------------
+0. (Mix(7x7_Conv, 0.528), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.575), Identity)
+2. (Mix(7x7_Conv, 0.528), 1x1_Conv)
+3. (Mix(Zero, 0.571), Identity)
+4. (Mix(7x7_Conv, 0.502), 1x1_Conv)
+5. (Mix(Zero, 0.272), Identity)
+6. (Mix(3x3_Conv, 0.284), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [171]------------------------------
+0. (Mix(7x7_Conv, 0.537), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.585), Identity)
+2. (Mix(7x7_Conv, 0.523), 1x1_Conv)
+3. (Mix(Zero, 0.573), Identity)
+4. (Mix(7x7_Conv, 0.487), 1x1_Conv)
+5. (Mix(Zero, 0.276), Identity)
+6. (Mix(3x3_Conv, 0.285), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [172]------------------------------
+0. (Mix(7x7_Conv, 0.540), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.570), Identity)
+2. (Mix(7x7_Conv, 0.514), 1x1_Conv)
+3. (Mix(Zero, 0.574), Identity)
+4. (Mix(7x7_Conv, 0.482), 1x1_Conv)
+5. (Mix(Zero, 0.271), Identity)
+6. (Mix(5x5_Conv, 0.297), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [173]------------------------------
+0. (Mix(7x7_Conv, 0.549), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.559), Identity)
+2. (Mix(7x7_Conv, 0.520), 1x1_Conv)
+3. (Mix(Zero, 0.576), Identity)
+4. (Mix(7x7_Conv, 0.476), 1x1_Conv)
+5. (Mix(Zero, 0.273), Identity)
+6. (Mix(5x5_Conv, 0.317), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [174]------------------------------
+0. (Mix(7x7_Conv, 0.562), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.567), Identity)
+2. (Mix(7x7_Conv, 0.531), 1x1_Conv)
+3. (Mix(Zero, 0.576), Identity)
+4. (Mix(7x7_Conv, 0.497), 1x1_Conv)
+5. (Mix(Zero, 0.277), Identity)
+6. (Mix(5x5_Conv, 0.328), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [175]------------------------------
+0. (Mix(7x7_Conv, 0.578), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.589), Identity)
+2. (Mix(7x7_Conv, 0.520), 1x1_Conv)
+3. (Mix(Zero, 0.579), Identity)
+4. (Mix(7x7_Conv, 0.496), 1x1_Conv)
+5. (Mix(Zero, 0.276), Identity)
+6. (Mix(5x5_Conv, 0.329), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [176]------------------------------
+0. (Mix(7x7_Conv, 0.585), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.593), Identity)
+2. (Mix(7x7_Conv, 0.531), 1x1_Conv)
+3. (Mix(Zero, 0.580), Identity)
+4. (Mix(7x7_Conv, 0.495), 1x1_Conv)
+5. (Mix(Zero, 0.279), Identity)
+6. (Mix(5x5_Conv, 0.323), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [177]------------------------------
+0. (Mix(7x7_Conv, 0.592), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.602), Identity)
+2. (Mix(7x7_Conv, 0.536), 1x1_Conv)
+3. (Mix(Zero, 0.582), Identity)
+4. (Mix(7x7_Conv, 0.496), 1x1_Conv)
+5. (Mix(Zero, 0.281), Identity)
+6. (Mix(5x5_Conv, 0.331), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [178]------------------------------
+0. (Mix(7x7_Conv, 0.586), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.627), Identity)
+2. (Mix(7x7_Conv, 0.546), 1x1_Conv)
+3. (Mix(Zero, 0.583), Identity)
+4. (Mix(7x7_Conv, 0.485), 1x1_Conv)
+5. (Mix(Zero, 0.285), Identity)
+6. (Mix(5x5_Conv, 0.331), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [179]------------------------------
+0. (Mix(7x7_Conv, 0.575), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.647), Identity)
+2. (Mix(7x7_Conv, 0.535), 1x1_Conv)
+3. (Mix(Zero, 0.585), Identity)
+4. (Mix(7x7_Conv, 0.512), 1x1_Conv)
+5. (Mix(Zero, 0.288), Identity)
+6. (Mix(5x5_Conv, 0.327), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [180]------------------------------
+0. (Mix(7x7_Conv, 0.586), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.649), Identity)
+2. (Mix(7x7_Conv, 0.537), 1x1_Conv)
+3. (Mix(Zero, 0.587), Identity)
+4. (Mix(7x7_Conv, 0.513), 1x1_Conv)
+5. (Mix(Zero, 0.296), Identity)
+6. (Mix(5x5_Conv, 0.338), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [181]------------------------------
+0. (Mix(7x7_Conv, 0.598), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.661), Identity)
+2. (Mix(7x7_Conv, 0.544), 1x1_Conv)
+3. (Mix(Zero, 0.590), Identity)
+4. (Mix(7x7_Conv, 0.520), 1x1_Conv)
+5. (Mix(Zero, 0.295), Identity)
+6. (Mix(5x5_Conv, 0.333), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [182]------------------------------
+0. (Mix(7x7_Conv, 0.609), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.655), Identity)
+2. (Mix(7x7_Conv, 0.558), 1x1_Conv)
+3. (Mix(Zero, 0.590), Identity)
+4. (Mix(7x7_Conv, 0.522), 1x1_Conv)
+5. (Mix(Zero, 0.299), Identity)
+6. (Mix(5x5_Conv, 0.335), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [183]------------------------------
+0. (Mix(7x7_Conv, 0.614), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.648), Identity)
+2. (Mix(7x7_Conv, 0.560), 1x1_Conv)
+3. (Mix(Zero, 0.591), Identity)
+4. (Mix(7x7_Conv, 0.529), 1x1_Conv)
+5. (Mix(Zero, 0.303), Identity)
+6. (Mix(5x5_Conv, 0.339), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [184]------------------------------
+0. (Mix(7x7_Conv, 0.625), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.637), Identity)
+2. (Mix(7x7_Conv, 0.560), 1x1_Conv)
+3. (Mix(Zero, 0.593), Identity)
+4. (Mix(7x7_Conv, 0.527), 1x1_Conv)
+5. (Mix(Zero, 0.304), Identity)
+6. (Mix(5x5_Conv, 0.333), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [185]------------------------------
+0. (Mix(7x7_Conv, 0.624), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.654), Identity)
+2. (Mix(7x7_Conv, 0.566), 1x1_Conv)
+3. (Mix(Zero, 0.596), Identity)
+4. (Mix(7x7_Conv, 0.538), 1x1_Conv)
+5. (Mix(Zero, 0.306), Identity)
+6. (Mix(5x5_Conv, 0.336), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [186]------------------------------
+0. (Mix(7x7_Conv, 0.628), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.659), Identity)
+2. (Mix(7x7_Conv, 0.586), 1x1_Conv)
+3. (Mix(Zero, 0.599), Identity)
+4. (Mix(7x7_Conv, 0.522), 1x1_Conv)
+5. (Mix(Zero, 0.312), Identity)
+6. (Mix(5x5_Conv, 0.340), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [187]------------------------------
+0. (Mix(7x7_Conv, 0.632), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.653), Identity)
+2. (Mix(7x7_Conv, 0.591), 1x1_Conv)
+3. (Mix(Zero, 0.601), Identity)
+4. (Mix(7x7_Conv, 0.524), 1x1_Conv)
+5. (Mix(Zero, 0.318), Identity)
+6. (Mix(5x5_Conv, 0.344), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [188]------------------------------
+0. (Mix(7x7_Conv, 0.645), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.649), Identity)
+2. (Mix(7x7_Conv, 0.582), 1x1_Conv)
+3. (Mix(Zero, 0.603), Identity)
+4. (Mix(7x7_Conv, 0.533), 1x1_Conv)
+5. (Mix(Zero, 0.320), Identity)
+6. (Mix(5x5_Conv, 0.350), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [189]------------------------------
+0. (Mix(7x7_Conv, 0.643), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.638), Identity)
+2. (Mix(7x7_Conv, 0.570), 1x1_Conv)
+3. (Mix(Zero, 0.604), Identity)
+4. (Mix(7x7_Conv, 0.535), 1x1_Conv)
+5. (Mix(Zero, 0.323), Identity)
+6. (Mix(5x5_Conv, 0.352), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [190]------------------------------
+0. (Mix(7x7_Conv, 0.643), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.658), Identity)
+2. (Mix(7x7_Conv, 0.573), 1x1_Conv)
+3. (Mix(Zero, 0.606), Identity)
+4. (Mix(7x7_Conv, 0.534), 1x1_Conv)
+5. (Mix(Zero, 0.328), Identity)
+6. (Mix(5x5_Conv, 0.347), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [191]------------------------------
+0. (Mix(7x7_Conv, 0.640), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.658), Identity)
+2. (Mix(7x7_Conv, 0.575), 1x1_Conv)
+3. (Mix(Zero, 0.610), Identity)
+4. (Mix(7x7_Conv, 0.530), 1x1_Conv)
+5. (Mix(Zero, 0.325), Identity)
+6. (Mix(5x5_Conv, 0.353), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [192]------------------------------
+0. (Mix(7x7_Conv, 0.648), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.658), Identity)
+2. (Mix(7x7_Conv, 0.594), 1x1_Conv)
+3. (Mix(Zero, 0.612), Identity)
+4. (Mix(7x7_Conv, 0.537), 1x1_Conv)
+5. (Mix(Zero, 0.331), Identity)
+6. (Mix(5x5_Conv, 0.347), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [193]------------------------------
+0. (Mix(7x7_Conv, 0.650), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.656), Identity)
+2. (Mix(7x7_Conv, 0.592), 1x1_Conv)
+3. (Mix(Zero, 0.615), Identity)
+4. (Mix(7x7_Conv, 0.553), 1x1_Conv)
+5. (Mix(Zero, 0.331), Identity)
+6. (Mix(5x5_Conv, 0.335), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [194]------------------------------
+0. (Mix(7x7_Conv, 0.654), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.667), Identity)
+2. (Mix(7x7_Conv, 0.595), 1x1_Conv)
+3. (Mix(Zero, 0.617), Identity)
+4. (Mix(7x7_Conv, 0.560), 1x1_Conv)
+5. (Mix(Zero, 0.335), Identity)
+6. (Mix(5x5_Conv, 0.335), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [195]------------------------------
+0. (Mix(7x7_Conv, 0.658), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.665), Identity)
+2. (Mix(7x7_Conv, 0.603), 1x1_Conv)
+3. (Mix(Zero, 0.618), Identity)
+4. (Mix(7x7_Conv, 0.548), 1x1_Conv)
+5. (Mix(Zero, 0.338), Identity)
+6. (Mix(3x3_Conv, 0.329), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [196]------------------------------
+0. (Mix(7x7_Conv, 0.667), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.667), Identity)
+2. (Mix(7x7_Conv, 0.605), 1x1_Conv)
+3. (Mix(Zero, 0.621), Identity)
+4. (Mix(7x7_Conv, 0.544), 1x1_Conv)
+5. (Mix(Zero, 0.342), Identity)
+6. (Mix(3x3_Conv, 0.335), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [197]------------------------------
+0. (Mix(7x7_Conv, 0.659), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.671), Identity)
+2. (Mix(7x7_Conv, 0.592), 1x1_Conv)
+3. (Mix(Zero, 0.623), Identity)
+4. (Mix(7x7_Conv, 0.529), 1x1_Conv)
+5. (Mix(Zero, 0.339), Identity)
+6. (Mix(3x3_Conv, 0.334), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [198]------------------------------
+0. (Mix(7x7_Conv, 0.658), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.673), Identity)
+2. (Mix(7x7_Conv, 0.600), 1x1_Conv)
+3. (Mix(Zero, 0.624), Identity)
+4. (Mix(7x7_Conv, 0.527), 1x1_Conv)
+5. (Mix(Zero, 0.340), Identity)
+6. (Mix(3x3_Conv, 0.346), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [199]------------------------------
+0. (Mix(7x7_Conv, 0.642), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.679), Identity)
+2. (Mix(7x7_Conv, 0.619), 1x1_Conv)
+3. (Mix(Zero, 0.625), Identity)
+4. (Mix(7x7_Conv, 0.532), 1x1_Conv)
+5. (Mix(Zero, 0.339), Identity)
+6. (Mix(3x3_Conv, 0.335), 1x1_Conv)
+------------------------------------------------------------
+------------------------------Current Architecture [200]------------------------------
+0. (Mix(7x7_Conv, 0.658), 1x1_Conv)
+1. (Mix(5x5_Conv, 0.693), Identity)
+2. (Mix(7x7_Conv, 0.614), 1x1_Conv)
+3. (Mix(Zero, 0.627), Identity)
+4. (Mix(7x7_Conv, 0.527), 1x1_Conv)
+5. (Mix(Zero, 0.343), Identity)
+6. (Mix(3x3_Conv, 0.335), 1x1_Conv)
+------------------------------------------------------------
